@@ -1,27 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="css/styles.css">
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width" />
-<title>Rick's website</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="https://kit.fontawesome.com/c011478768.js" crossorigin="anonymous"></script>
+	<script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous">
+</script>
+<script>
+	$(function(){
+		$('#header').load('navbar-main.html')
+	})
+</script>
 </head>
 <body>
-<div class="navbar">  
-	<a href="./index.html"><img src="images/home.png" alt="home" style="width:30px;height:30px"></a>
-	<a href="./finance.html">Finance</a>
-	<a href="./computer.html">Computer</a>
-	<div class="dropdown">
-		<button class="dropbtn">My Stuff
-			<i class="fa-solid fa-caret-down"></i>
-		</button>
-		<div class="dropdown-content">
-			<a href="./vehicles.html">Vehicles</a>
-			<a href="./buy_house.html">Buy House</a>
-			<a href="./books.html">Books</a>
-		</div>
-	</div>
-</div>
+	<div id="header"></div>
 <h4>Buy a House</h4>
 <hr>
 
