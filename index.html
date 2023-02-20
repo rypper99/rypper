@@ -5,8 +5,28 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width" />
 <title>Rick's website</title>
+<script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous">
+</script>
+<script>
+	$(function(){
+		$('#header').load('navbar-main.html')
+	})
+</script>
 </head>
 <body>
+	<div id="header"></div>
+	<!-- 	<iframe src="./navbar-main.html"></iframe> 	-->
+	<!--  #include file="navbar-main.html" 	-->
+	<!--
+	<div id=`contents`></div>
+	$('#content').load('navbar-main.html');
+	-->
+	<!-- 	<embed rel="text/html" src="navbar-main.html"> 	-->
+	
+<!--
 <div class="navbar">  
 	<a href="./index.html"><img src="images/home.png" alt="home" style="width:30px;height:30px"></a>
 	<a href="./finance.html">Finance</a>
@@ -22,6 +42,7 @@
 		</div>
 	</div>
 </div>
+-->
 
 <!-- This headings is affect due to scripts/main.js 
 <h1>My main title</h1>
@@ -52,11 +73,7 @@
 
 
 <hr>
-<p><a href=".\drawio\archive\drawio\.HOME\HOME.html">DrawIO (archive)</p>
 
-<!-- works with logic in scripts/main.js
-<button>Change User</button>
-<script src="scripts/main.js"></script>
--->
+
 </body>
 </html>
