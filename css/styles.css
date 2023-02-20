@@ -118,7 +118,8 @@ ol li {
 }
 
 .dropdown-item-header {
-  background-color: red;
+  background-color: black;
+  color: white;
 }
 
 /* Add a red background color to navbar links on hover */
