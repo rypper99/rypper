@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="navbar">  
+	<a href="./index.html"><img src="images/home.png" alt="home" style="width:30px;height:30px"></a>
+	<a href="./computer.html">Computer</a>
+	<a href="./computer-web-dev.html">Web Development</a>
+	<a href="./computer-python.html">Python</a>
+	<a href="./computer-windows.html">Windows</a>
+	<a href="./computer-mac.html">Mac</a>
+	<a href="./computer-tools.html">Computer Tools</a>
+	<a href="./computer-training.html">Training</a>
+</div>
+<div class="main">
+<br>
+<h4>MAC</h4>
+<hr>
+
+<BR>
+<h5><a href="https://www.makeuseof.com/free-screen-recording-apps-without-time-limits-or-watermarks/">The 5 Best Free Screen Recording Apps Without Time Limits or Watermarks</a></h5>
+<br>
+<h5>Perform screen recording using Quick Time player</h5>
+<ul>
+<li>Installed and Configured BlackHole
+<ul>
+<li>followed: <a href="https://www.youtube.com/watch?v=LSmM5FXzVBg">How to Screen Record with Internal Audio on QuickTime Player</a>
+<li><video width="320" height="240" controls>
+  <source src="./videos/how-to-screen-record-with-internal-audio-on-quicktime-player.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<li>downloaded plugin <a href="https://github.com/ExistentialAudio/BlackHole">BlackHole</a> 
+<ul>
+<li>find Download Installer
+</ul>
+<li>run installer
+<ul>
+<li>chose BlackHole 16ch option
+</ul>
+<li>open Audio MIDI Setup (search button)
+<ul>
+<li>will see: BlackHole 16ch
+<li>create Quick Time Input
+<ul>
+<li>+ (Create Aggregate Device)
+<li>select BlackHole 16ch
+<li>double-click on Aggregate Device name and rename => Quick Time Input
+</ul>
+<li>Create Screen Recording Audio
+<ul>
+<li>+ (Create Multi-Output Device)
+<li>select Built-in Output (first)
+<li>select BlackHole 16ch (second)
+<li>double-click on Multi-Output Device name and rename => Screen recording audio
+</ul>
+</ul>
+</ul>
+<li>Perform Screen recording
+<ul>
+<li>change Sound Output to go to Screen recording audio
+<ul>
+<li>open System Settings
+<li>open Sound
+<li>under Output choose Screen recording audio
+</ul>
+<li>Do recording
+<ul>
+<li>open QuickTime Player + choose File > New Screen Recording -or- (shift + command + 5)
+<li>click on Options
+<ul>
+<li>choose Quick Time input (I had to choose BlackHole 16ch)
+</ul>
+<li>click Record to start recording
+<li>click Stop button (at top of screen) to stop recording
+</ul>
+<li>revert Sound Output back to normal
+<ul>
+<li>open System Settings
+<li>open Sound
+<li>under Output choose External Headphones or Mac mini Speakers
+</ul>
+</ul>
+<li>Convert MOV to MP4 - using Handbrake</li>
+<ul>
+	<li>open MOV file</li>
+	<li>recommended settings</li>
+	<ul>
+		<li>Preset: <strong>Fast 1080p30</strong></li>
+		<li>Video tab</li>
+			<ul>
+				<li>Video Encoder: <strong>H.264 (x264)</strong></li>
+				<li>Framerate (FPS): <strong>30</strong> and select <strong>Contant Framerate</strong></li>
+					<ul>
+						<li>Peak Framerate (aka variable framerate is known to cause issues</li>
+					</ul>
+			</ul>
+		<li>Audio tab</li>
+			<ul>
+				<li>Codec: <strong>AAC (avcodec)</strong></li>
+			</ul>
+		<li>click on <strong>Browse</strong> (lower right) to pick save location</li>
+	</ul>
+</ul>
+</ul>
+
+
+<h4>MAC links to check out</h4>
+<ul>
+<li><a href="https://support.apple.com/kb/SP623?viewlocale=en_US&locale=en_US">iMac 2011 specs</a>
+<li><a href="https://www.howtogeek.com/348398/can-you-upgrade-the-hard-drive-or-ssd-in-your-mac/">Upgrade hard drive</a>
+<li><a href="https://www.lifewire.com/upgrading-macs-drive-2260371">Upgrade hard drive</a>
+<li><a href="https://www.makeuseof.com/how-to-clear-other-storage-iphone/">How to clear other storage from iPhone</a>
+</ul>
+<hr>
+
+</div>
+</body>
+</html>
