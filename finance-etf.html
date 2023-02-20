@@ -3,45 +3,19 @@
 <head>
 	<link rel="stylesheet" href="css/styles.css">
 	<script src="https://kit.fontawesome.com/c011478768.js" crossorigin="anonymous"></script>
+	<script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous">
+</script>
+<script>
+	$(function(){
+		$('#header').load('navbar-main.html')
+	})
+</script>
 </head>
 <body>
-<div class="navbar">  
-	<a href="./index.html"><img src="images/home.png" alt="home" style="width:30px;height:30px"></a>
-	<a href="./finance.html"><strong>Finance</strong></a>
-	<div class="dropdown">
-		<button class="dropbtn">Accounts
-			<i class="fa-solid fa-caret-down"></i>
-		</button>
-		<div class="dropdown-content">
-			<a href="./finance-lira.html">LIRA</a>
-			<a href="./finance-rrsp.html">RRSP</a>
-			<a href="./finance-rrif.html">RRIF</a>
-			<a href="./finance-resp.html">RESP</a>
-			<a href="./finance-rdsp.html">RDSP</a>
-		</div>
-	</div>
-	<div class="dropdown">
-		<button class="dropbtn">Products
-			<i class="fa-solid fa-caret-down"></i>
-		</button>
-		<div class="dropdown-content">
-			<a href="./finance-dividends.html">Dividends</a>
-			<a href="./finance-bonds.html">Bonds</a>
-		</div>
-	</div>
-	<div class="dropdown">
-		<button class="dropbtn">Strategies
-			<i class="fa-solid fa-caret-down"></i>
-		</button>
-		<div class="dropdown-content">
-			<a href="./finance-investing-strategies.html">Investment Strategies</a>
-			<a href="./finance-retirement-withdraw.html">Withdraw in Retirement</a>
-			<a href="./finance-estates.html">Estates/Wills</a>
-		</div>
-	</div>
-	<a href="./finance-utilities.html">Utilities</a>
-	<a href="./finance-mynotes.html">MyNotes</a>
-</div>
+	<div id="header"></div>
 <h1>ETFs</h1>
 <hr>
 
