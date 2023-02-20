@@ -117,6 +117,10 @@ ol li {
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
+.dropdown-item-header {
+  background-color: red;
+}
+
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: red;
