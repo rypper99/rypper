@@ -170,16 +170,16 @@ ol li {
 
 /* facts block */
 .finance-facts {
-  background-color: blue;
-  color: white;
-  text-align: center;
+  background-color: grey;
+  color: black;
+  text-align: left;
 }
 
 /* strategy block */
 .finance-strategy {
-  background-color: blue;
-  color: white;
-  text-align: center;
+  background-color: grey;
+  color: black;
+  text-align: left;
 }
 
 
