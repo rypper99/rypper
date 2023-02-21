@@ -174,14 +174,14 @@ ol li {
 
 /* facts block */
 .finance-facts {
-  background-color: grey;
+  background-color: rgb(205, 200, 200);
   color: black;
   text-align: left;
 }
 
 /* strategy block */
 .finance-strategy {
-  background-color: grey;
+  background-color: rgb(205, 200, 200);
   color: black;
   text-align: left;
 }
