@@ -80,6 +80,7 @@ ol li {
   /*position: fixed;*/ /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  text-align: right;
 }
 
 /* Links inside the navbar */
@@ -162,6 +163,20 @@ ol li {
 
 /* title box for page */
 .page-title {
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+/* facts block */
+.finance-facts {
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+/* strategy block */
+.finance-strategy {
   background-color: blue;
   color: white;
   text-align: center;
