@@ -169,6 +169,24 @@ ol li {
   margin-right: 100px;
 }
 
+.finance-boxes {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  background-color: #fcf7f7;
+  color: black;
+  text-align: left;
+  font-size: 20px;
+  border: 2px solid black;
+}
+
+.finance-box-header {
+  background-color: rgb(190, 16, 221);
+  color: white;
+  text-align: center;
+  border: 2px solid black;
+}
+
+
 .finance-facts {
   background-color: rgb(252, 247, 247);
   color: black;
@@ -185,7 +203,6 @@ ol li {
   border: 2px solid black;
 }
 
-
 .fact-strategy {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -193,13 +210,6 @@ ol li {
   color: black;
   text-align: left;
   font-size: 20px;
-  border: 2px solid black;
-}
-
-.finance-box-header {
-  background-color: rgb(190, 16, 221);
-  color: white;
-  text-align: center;
   border: 2px solid black;
 }
 
