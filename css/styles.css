@@ -176,7 +176,6 @@ ol li {
   color: black;
   text-align: left;
   font-size: 20px;
-  border: 5px solid black;
 }
 
 .finance-box-details {
@@ -190,6 +189,7 @@ ol li {
   text-align: center;
   font-style: bold;
   vertical-align: middle;
+  border: 5px solid black;
 }
 
 
