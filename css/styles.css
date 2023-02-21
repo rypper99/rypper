@@ -159,7 +159,6 @@ ol li {
   display: block;
 }
 
-/* title box for page */
 .page-title {
   background-color: blue;
   color: white;
@@ -170,7 +169,6 @@ ol li {
   margin-right: 100px;
 }
 
-/* facts block */
 .finance-facts {
   background-color: rgb(252, 247, 247);
   color: black;
@@ -179,7 +177,6 @@ ol li {
   border: 2px solid black;
 }
 
-/* strategy block */
 .finance-strategy {
   background-color: rgb(252, 247, 247);
   color: black;
@@ -188,7 +185,7 @@ ol li {
   border: 2px solid black;
 }
 
-/* strategy block */
+
 .fact-strategy {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -197,6 +194,16 @@ ol li {
   text-align: left;
   font-size: 20px;
   border: 2px solid black;
+}
+
+.fact-strategy-header {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  margin-top: 2px;
+	margin-bottom: 2px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 
