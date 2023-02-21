@@ -203,4 +203,12 @@ ol li {
   border: 2px solid black;
 }
 
-
+.finance-links {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: rgb(252, 247, 247);
+  color: black;
+  text-align: left;
+  font-size: 20px;
+  border: 2px solid black;
+}
