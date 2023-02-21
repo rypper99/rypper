@@ -188,4 +188,10 @@ ol li {
   border: 2px solid black;
 }
 
+/* strategy block */
+.fact-strategy {
+  display: grid;
+  grid-template-columns: 100px 100px;
+}
+
 
