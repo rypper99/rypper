@@ -107,7 +107,10 @@ ol li {
   border: none;
   outline: none;
   color: white;
-  padding: 2px 10px 2px 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 10px;
+  padding-left: 2px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
