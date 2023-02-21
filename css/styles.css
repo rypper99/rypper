@@ -160,4 +160,9 @@ ol li {
   display: block;
 }
 
+/* title box for page */
+.page-title {
+  background-color: blue;
+}
+
 
