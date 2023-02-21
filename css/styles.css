@@ -211,5 +211,6 @@ ol li {
 
 .finance-estates ul {
   margin-top: 0px;
-  margin-left: 0px;
+  padding-left: 0px;
+  color: red;
 }
