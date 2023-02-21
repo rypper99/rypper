@@ -181,6 +181,7 @@ ol li {
 
 .finance-box-details {
   text-align: left;
+  border: 5px solid black;
 }
 
 .finance-box-header {
