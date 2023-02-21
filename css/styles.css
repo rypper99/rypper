@@ -163,6 +163,8 @@ ol li {
 /* title box for page */
 .page-title {
   background-color: blue;
+  color: white;
+  text-align: center;
 }
 
 
