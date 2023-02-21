@@ -179,6 +179,7 @@ ol li {
 }
 
 .finance-box-details {
+  background-color: rgb(190, 16, 221);
   text-align: left;
   border: 5px solid black;
 }
