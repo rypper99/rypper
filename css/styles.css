@@ -191,7 +191,12 @@ ol li {
 /* strategy block */
 .fact-strategy {
   display: grid;
-  grid-template-columns: 100px 100px;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(252, 247, 247);
+  color: black;
+  text-align: left;
+  font-size: 20px;
+  border: 2px solid black;
 }
 
 
