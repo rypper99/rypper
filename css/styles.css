@@ -179,6 +179,13 @@ ol li {
   border: 2px solid black;
 }
 
+.finance-box-details {
+  background-color: white;
+  color: black;
+  text-align: left;
+  border: 2px solid black;
+}
+
 .finance-box-header {
   background-color: rgb(190, 16, 221);
   color: white;
