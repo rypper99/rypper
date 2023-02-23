@@ -94,6 +94,10 @@ ol li {
   text-decoration: none;
 }
 
+.navbar a:hover {
+  background-color: red;
+}
+
 
 /* The dropdown container */
 .dropdown {
@@ -119,11 +123,11 @@ ol li {
 .dropdown-item-header {
   background-color: black;
   color: yellow;
-  align: center;
+  text-align: center;
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+.dropdown:hover .dropbtn {
   background-color: red;
 }
 
