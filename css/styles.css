@@ -81,6 +81,7 @@ ol li {
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   text-align: right;
+  position: fixed;
 }
 
 /* Links inside the navbar */
@@ -92,7 +93,6 @@ ol li {
   text-align: center;
   /* padding: 2px 2px; */
   text-decoration: none;
-  position: fixed;
 }
 
 
