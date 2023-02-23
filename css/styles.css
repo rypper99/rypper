@@ -119,6 +119,7 @@ ol li {
 .dropdown-item-header {
   background-color: black;
   color: yellow;
+  align: center;
 }
 
 /* Add a red background color to navbar links on hover */
@@ -143,7 +144,7 @@ ol li {
   padding: 2px 2px 2px 10px;
   text-decoration: none;
   display: block;
-  text-align: left;
+  text-align: center;
   margin-top: 0px;
 	margin-bottom: 1px;
   font-size: 16px;
