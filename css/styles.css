@@ -218,3 +218,26 @@ ol li {
   margin-top: 0px;
   color: black;
 }
+
+.finance-page {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #fcf7f7;
+  color: black;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.finance-page h1 {
+  font-style: bold;
+  font-size: 20px;
+  margin-bottom: 0px;
+  background-color: rgb(227, 219, 219);
+}
+
+.finance-page ul {
+  margin-top: 0px;
+  color: black;
+}
+
