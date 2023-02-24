@@ -238,3 +238,16 @@ ol li {
   color: black;
 }
 
+.fund-table {
+  width:100%
+}
+
+.fund-table caption {
+  align:"bottom";
+}
+
+.fund-table, th, td {
+  border:1px solid black;
+}
+
+
