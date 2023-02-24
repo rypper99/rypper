@@ -243,10 +243,15 @@ ol li {
 }
 
 .fund-table caption {
-  align:"bottom";
+  vertical-align:"bottom";
 }
 
-.fund-table, th, td {
+.fund-table th {
+  border:1px solid black;
+  background-color: grey;
+}
+
+.fund-table td {
   border:1px solid black;
 }
 
