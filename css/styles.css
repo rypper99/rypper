@@ -244,6 +244,7 @@ ol li {
 
 .fund-table caption {
   vertical-align:"bottom";
+  background-color: yellow;
 }
 
 .fund-table th {
