@@ -220,13 +220,10 @@ ol li {
 }
 
 .finance-page {
-  display: grid;
-  grid-template-columns: 1fr;
-  background-color: #fcf7f7;
+  background-color: white;
   color: black;
   text-align: left;
   font-size: 20px;
-  margin-top: 5px;
 }
 
 .finance-page h1 {
