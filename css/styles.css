@@ -229,6 +229,7 @@ ol li {
 .finance-page h1 {
   font-style: bold;
   font-size: 20px;
+  margin-top: 5px;
   margin-bottom: 0px;
   background-color: rgb(227, 219, 219);
 }
@@ -246,6 +247,7 @@ ol li {
   vertical-align:"bottom";
   background-color: yellow;
   text-align: left;
+  margin-top: 3px;
 }
 
 .fund-table th {
