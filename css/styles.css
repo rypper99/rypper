@@ -268,3 +268,20 @@ ol li {
   font-size: 20px;
   margin-top: 5px;
 }
+
+.meals-table caption {
+  vertical-align:"bottom";
+  background-color: yellow;
+  text-align: left;
+}
+
+.meals-table th {
+  border:1px solid black;
+  background-color: grey;
+}
+
+.meals-table td {
+  border:1px solid black;
+  vertical-align: top;
+}
+
