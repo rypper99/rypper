@@ -279,10 +279,12 @@ ol li {
 .meals-table th {
   border:1px solid black;
   background-color: rgb(226, 218, 218);
+  text-align: center;
 }
 
 .meals-table td {
   border:1px solid black;
   vertical-align: top;
+  text-align: center;
 }
 
