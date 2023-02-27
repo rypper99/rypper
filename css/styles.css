@@ -259,7 +259,7 @@ ol li {
   border:1px solid black;
 }
 
-.meals {
+.food {
   display: grid;
   grid-template-columns: 1fr;
   background-color: #fcf7f7;
@@ -269,20 +269,20 @@ ol li {
   margin-top: 5px;
 }
 
-.meals-table caption {
+.food-table caption {
   vertical-align:"bottom";
   background-color: yellow;
   text-align: left;
   font-weight: bold;
 }
 
-.meals-table th {
+.food-table th {
   border:1px solid black;
   background-color: rgb(226, 218, 218);
   text-align: center;
 }
 
-.meals-table td {
+.food-table td {
   border:1px solid black;
   vertical-align: top;
   text-align: center;
