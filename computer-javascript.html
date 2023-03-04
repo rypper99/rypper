@@ -17,38 +17,56 @@
 </head>
 
 <body>
-  <h4>new</h4>
+  <h4>new 2</h4>
 
   <input id="todo-title" type="text" />
-  <button onclick="addTodo()">Add Todo</button>
+    <input id="date-picker" type="date" />
+    <button onclick="addTodo()">Add Todo</button>
 
-  <div id="todo-list"></div>
+    <div id="todo-list"></div>
 
-  <script>
-    const todos = ['Get groceries', 'Wash car', 'Make dinner'];
-
-    render();
-
-    function addTodo() {
-      const textbox = document.getElementById('todo-title');
-      const title = textbox.value;
-      todos.push(title);
+    <script>
+      const todos = [{
+        title: 'Get groceries',
+        dueDate: '2021-10-04'
+      }, {
+        title: 'Wash car',
+        dueDate: '2021-02-03'
+      }, {
+        title: 'Make dinner',
+        dueDate: '2021-03-04'
+      }];
 
       render();
-    }
 
-    function render() {
-      // reset our list
-      document.getElementById('todo-list').innerHTML = '';
+      function addTodo() {
+        const textbox = document.getElementById('todo-title');
+        const title = textbox.value;
 
-      todos.forEach(function (todoTitle) {
-        const element = document.createElement('div');
-        element.innerText = todoTitle;
-        const todoList = document.getElementById('todo-list');
-        todoList.appendChild(element);
-      });
-    }
-  </script>
+        const datePicker = document.getElementById('date-picker');
+        const dueDate = datePicker.value;
+        todos.push({
+          title: title,
+          dueDate: dueDate
+        });
+
+        render();
+      }
+
+      function render() {
+        // reset our list
+        document.getElementById('todo-list').innerHTML = '';
+
+        todos.forEach(function (todo) {
+          const element = document.createElement('div');
+          element.innerText = todo.title + ' ' + todo.dueDate;
+          const todoList = document.getElementById('todo-list');
+          todoList.appendChild(element);
+        });
+      }
+    </script>
+
+
 </body>
 
 
