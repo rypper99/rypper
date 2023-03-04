@@ -20,16 +20,23 @@
   <h4>Javascript</h4>
 
   <button>Press me</button>
-    <script>
-      let todos = ['Get groceries', 'Wash car', 'Make dinner'];
-      todos.push('another todo');
+  <input id="todo-title" type="text" />
+  <button onclick="addTodo()">Add Todo</button>
+  <script>
+    let todos = ['Get groceries', 'Wash car', 'Make dinner'];
 
-      todos.forEach(function (todoTitle) {
-        let element = document.createElement('div');
-        element.innerText = todoTitle;
-        document.body.appendChild(element);
-      });
-    </script>
+    todos.forEach(function (todoTitle) {
+      let element = document.createElement('div');
+      element.innerText = todoTitle;
+      document.body.appendChild(element);
+    });
+
+    function addTodo() {
+      let textbox = document.getElementById('todo-title');
+      let title = textbox.value;
+      todos.push(title);
+    }
+  </script>
 
 </body>
 </html>
