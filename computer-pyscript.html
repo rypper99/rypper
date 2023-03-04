@@ -8,12 +8,14 @@
   src="https://code.jquery.com/jquery-3.6.3.min.js"
   integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
   crossorigin="anonymous">
-</script>
-<script>
-	$(function(){
-		$('#navbar').load('navbar-main.html')
-	})
-</script>
+  </script>
+  <script>
+    $(function(){
+      $('#navbar').load('navbar-main.html')
+    })
+  </script>
+  <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+  <script defer src="https://pyscript.net/latest/pyscript.js"></script>
 </head>
 
 <body>
@@ -25,6 +27,14 @@
     from datetime import datetime
     now = datetime.now()
     display(now.strftime("%m/%d/%Y, %H:%M:%S"))
+  </py-script>
+
+  <hr>
+  <py-script>
+      a = 3
+      b = 4
+      c = a * b
+      print(f"{a=} x {b=} = {c=}")
   </py-script>
 
 
