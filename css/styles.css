@@ -170,6 +170,7 @@ ol li {
   display: block;
 }
 
+/*************************
 .finance-boxes {
   display: grid;
   grid-template-columns: 100px 1fr;
@@ -192,6 +193,7 @@ ol li {
   vertical-align: middle;
   border: 1px solid black;
 }
+********************/
 
 .finance-estates {
   display: grid;
