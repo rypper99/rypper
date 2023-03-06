@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>rypper</title>
 	<link rel="stylesheet" href="css/styles.css">
 	<script src="https://kit.fontawesome.com/c011478768.js" crossorigin="anonymous"></script>
 	<script
@@ -10,71 +11,70 @@
 </script>
 <script>
 	$(function(){
-		$('#header').load('navbar-main.html')
+		$('#navbar').load('navbar-main.html')
 	})
 </script>
 </head>
 <body>
-	<div id="header"></div>
+	<div id="navbar"></div>
+	<div class="page-title">RRSP</div>
 
-
-<h1>RRSP</h1>
-<h2>Facts</h2>
-<ul>
-<li>Can contribute until the end of the year you turn 71
-<li>On year you turn 71 (by Dec 31) must buy an annuity or convert it into a RRIF
-<li>Can convert RRSP to RRIF before age 71, when converting:
-<ul>
-<li>Choose your age or spouses (if younger) to use to determine minimum withdrawal
-<li>Decide frequency to take withdrawals (monthly, quarterly, annually)
-<li>Whether you want any withholding tax taken by financial institution
-</ul>
-<li>No restrictions on withdrawals
-</ul>
-<p><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html">RRSP Tax rates on withdrawals</a></p>
-<h2>Strategy</h2>
-<p>RRSP vs TFSA</p>
-<ul>
-	<li>Assumptions:</li>
-	<ul>
-		<li>Earn $5,000 in top bracket (50% tax) - pay $2,500 in tax</li>
-		<li>RRSP and TFSA invested the same</li>
-		<li>RRSP and TFSA balances will triple over time period</li>
-	</ul>
-	<li>RRSP</li>
-	<ul>
-		<li>contribute $5,000 to RRSP</li>
+	<h1>Facts</h1>
 		<ul>
-			<li>$2,500 from after tax money</li>
-			<li>$2,500 from tax return - due to $5,000 RRSP contribution</li>
+		<li>Can contribute until the end of the year you turn 71
+		<li>On year you turn 71 (by Dec 31) must buy an annuity or convert it into a RRIF
+		<li>Can convert RRSP to RRIF before age 71, when converting:
+			<ul>
+			<li>Choose your age or spouses (if younger) to use to determine minimum withdrawal
+			<li>Decide frequency to take withdrawals (monthly, quarterly, annually)
+			<li>Whether you want any withholding tax taken by financial institution
+			</ul>
+		<li>No restrictions on withdrawals
 		</ul>
-		<li>initial value of $5,000</li>
-		<li>triples to $15,000</li>
-		<li>withdraw (assume 50% tax rate) = $7,500</li>
-	</ul>
-	<li>TFSA</li>
+	<p><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html">RRSP Tax rates on withdrawals</a></p>
+	
+	<h1>Strategy</h1>
+	<p>RRSP vs TFSA</p>
 	<ul>
-		<li>contribute $2,500 to TFSA</li>
+		<li>Assumptions:</li>
 		<ul>
-			<li>no extra to contribute as no tax deducation for TFSA</li>
+			<li>Earn $5,000 in top bracket (50% tax) - pay $2,500 in tax</li>
+			<li>RRSP and TFSA invested the same</li>
+			<li>RRSP and TFSA balances will triple over time period</li>
 		</ul>
-		<li>initial value of $2,000</li>
-		<li>triples to $7,500</li>
-		<li>withdraw (not taxed) = $7,500</li>
-	</ul>
-	<li>Summary</li>
-	<ul>
-		<li>assuming 50% tax rate - both RRSP and TFSA will yield $7,500</li>
-		<li>what if your tax rate is lower at withdrawal (i.e. 30%)</li>
+		<li>RRSP</li>
 		<ul>
-			<li>RRSP returns $10,500 (only 30% tax on withdraw)</li>
-			<li>TFSA returns $7,500 (no benfit if withdrawing in lower tax bracket</li>
+			<li>contribute $5,000 to RRSP</li>
+			<ul>
+				<li>$2,500 from after tax money</li>
+				<li>$2,500 from tax return - due to $5,000 RRSP contribution</li>
+			</ul>
+			<li>initial value of $5,000</li>
+			<li>triples to $15,000</li>
+			<li>withdraw (assume 50% tax rate) = $7,500</li>
+		</ul>
+		<li>TFSA</li>
+		<ul>
+			<li>contribute $2,500 to TFSA</li>
+			<ul>
+				<li>no extra to contribute as no tax deducation for TFSA</li>
+			</ul>
+			<li>initial value of $2,000</li>
+			<li>triples to $7,500</li>
+			<li>withdraw (not taxed) = $7,500</li>
+		</ul>
+		<li>Summary</li>
+		<ul>
+			<li>assuming 50% tax rate - both RRSP and TFSA will yield $7,500</li>
+			<li>what if your tax rate is lower at withdrawal (i.e. 30%)</li>
+			<ul>
+				<li>RRSP returns $10,500 (only 30% tax on withdraw)</li>
+				<li>TFSA returns $7,500 (no benfit if withdrawing in lower tax bracket</li>
+			</ul>
 		</ul>
 	</ul>
-</ul>
-
-
-<h2>Other</h2>
+	
+	<h1>Other</h1>
 
 
 
