@@ -44,23 +44,17 @@ h6 {
 	margin-top: 0px;
 	margin-bottom: 1px;
 }
+ul {
+  margin-top: 0px;
+}
 p {
   color: black;
 }
-/*
-li {
-  color: black;
-}
-*/
 table, th, td {
   border:0px solid black;
 }
 
 /***************
-ul {
-  background: grey;
-  padding: 20px;
-}
 ul li {
   background: white;
   color: black;
