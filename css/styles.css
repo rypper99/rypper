@@ -9,9 +9,11 @@ body {
   border: 1px solid black;
 }
 h1 {
-	margin-top: 0px;
-	margin-bottom: 0px;
-	/*text-shadow: 3px 3px 0px black;*/
+  font-style: bold;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  background-color: rgb(227, 219, 219);
 }
 h2 {
   margin-top: 0px;
@@ -187,7 +189,7 @@ ol li {
 .finance-box-detail {
   text-align: left;
   border: 1px solid black;
-}
+}  
 
 .finance-box-header {
   background-color: rgb(190, 16, 221);
