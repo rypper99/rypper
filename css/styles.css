@@ -195,6 +195,7 @@ ol li {
 }
 ********************/
 
+/***********************
 .finance-estates {
   display: grid;
   grid-template-columns: 1fr;
@@ -236,6 +237,7 @@ ol li {
   margin-top: 0px;
   color: black;
 }
+***************************/
 
 .fund-table {
   width:100%;
