@@ -20,8 +20,7 @@ body {
   font-weight: bold;
 }
 h1 {
-  font-style: bold;
-  font-size: 20px;
+  font-weight: bold;
   margin-top: 5px;
   margin-bottom: 0px;
   background-color: black;
@@ -159,7 +158,7 @@ table, th, td {
 
 .fund-table caption {
   vertical-align:"bottom";
-  background-color: black;
+  background-color: rgb(34, 36, 200);
   color: yellow;
   text-align: left;
   font-size: larger;
