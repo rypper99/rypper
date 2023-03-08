@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>rypper</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="https://kit.fontawesome.com/c011478768.js" crossorigin="anonymous"></script>
+	<script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous">
+  </script>
+  <script>
+    $(function(){
+      $('#navbar').load('navbar-main.html')
+    })
+  </script>
+  <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+  <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+</head>
+
+<body>
+    <py-script>
+      from datetime import datetime
+      now = datetime.now()
+      display(now.strftime("%m/%d/%Y, %H:%M:%S"))
+    </py-script>
+
+</body>
+</html>
