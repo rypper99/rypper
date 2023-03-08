@@ -164,7 +164,13 @@ table, th, td {
   font-size: larger;
 }
 
-.fund-table a:link, a:visited {
+.fund-table a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  }
+
+.fund-table a:visited {
   color: white;
   background-color: transparent;
   text-decoration: none;
