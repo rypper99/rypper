@@ -3,8 +3,8 @@
 <head>
 	<title>rypper</title>
 	<link rel="stylesheet" href="css/styles.css">
-	<script src="https://kit.fontawesome.com/c011478768.js" crossorigin="anonymous"></script>
-	<script
+  <script src="https://kit.fontawesome.com/c011478768.js" crossorigin="anonymous"></script>
+  <script
   src="https://code.jquery.com/jquery-3.6.3.min.js"
   integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
   crossorigin="anonymous">
@@ -14,8 +14,10 @@
       $('#navbar').load('navbar-main.html')
     })
   </script>
+  <!---
   <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
   <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+  --->
 </head>
 
 <body>
@@ -31,28 +33,7 @@
     <li><a href="./computer-pyscript-3.html" target="_blank">Sample 3</a></li>
   </ul>
 
-  <!---------------------------------------------------------------------->
-  <h1>Sample 1</h1>
-  <div style="border: 5px solid red;">
-    <py-script>
-      from datetime import datetime
-      now = datetime.now()
-      display(now.strftime("%m/%d/%Y, %H:%M:%S"))
-    </py-script>
-  </div>
-
-  <!---------------------------------------------------------------------->
-  <h1>Sample 2</h1>
-  <div style="border: 5px solid red;">
-    <py-script>
-      a = 3
-      b = 4
-      c = a * b
-      print(f"{a=} x {b=} = {c=}")
-    </py-script>
-  </div>
-
-  <!---------------------------------------------------------------------->
+  <!---------------------
   <h1>Sample 3</h1>\
   <div style="border: 5px solid red;"></div>
   <py-config>
@@ -61,10 +42,8 @@
   </py-config>
   <py-script src="./todo.py">
   </py-script>
-  <!--------
   <main>
   <section>
-  --------->
 
   <div class="text-center w-full mb-8">
     <h1 class="text-3xl font-bold text-gray-800 uppercase tracking-tight">To Do List</h1>
@@ -90,14 +69,9 @@
     </template>
   </div>
 
-  <!-------- 
   </section>
   </main>
-  --------->
-
-  <!---------------------------------------------------------------------->
-  <h1>Sample 4</h1>
-
+------------------------------------------------->
 
 </body>
 </html>
