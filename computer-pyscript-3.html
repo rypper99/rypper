@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>rypper</title>
+	<title>sample 3</title>
 	<link rel="stylesheet" href="css/styles.css">
 	<script src="https://kit.fontawesome.com/c011478768.js" crossorigin="anonymous"></script>
 	<script
@@ -19,52 +19,12 @@
 </head>
 
 <body>
-  <div id="navbar"></div>
-  <div class="page-title">PyScript</div>
-
-  <p><a href="https://pyscript.net/" target="_blank" >Pyscript</a> - Run Python in your HTML
-
-  <p>Samples</p>
-  <ul>
-    <li><a href="./computer-pyscript-1.html" target="_blank">Sample 1</a></li>
-    <li><a href="./computer-pyscript-2.html" target="_blank">Sample 2</a></li>
-    <li><a href="./computer-pyscript-3.html" target="_blank">Sample 3</a></li>
-  </ul>
-
-  <!---------------------------------------------------------------------->
-  <h1>Sample 1</h1>
-  <div style="border: 5px solid red;">
-    <py-script>
-      from datetime import datetime
-      now = datetime.now()
-      display(now.strftime("%m/%d/%Y, %H:%M:%S"))
-    </py-script>
-  </div>
-
-  <!---------------------------------------------------------------------->
-  <h1>Sample 2</h1>
-  <div style="border: 5px solid red;">
-    <py-script>
-      a = 3
-      b = 4
-      c = a * b
-      print(f"{a=} x {b=} = {c=}")
-    </py-script>
-  </div>
-
-  <!---------------------------------------------------------------------->
-  <h1>Sample 3</h1>\
-  <div style="border: 5px solid red;"></div>
   <py-config>
     [[fetch]]
     files = ["./utils.py"]
   </py-config>
   <py-script src="./todo.py">
   </py-script>
-  <!--------
-  <main>
-  <section>
-  --------->
 
   <div class="text-center w-full mb-8">
     <h1 class="text-3xl font-bold text-gray-800 uppercase tracking-tight">To Do List</h1>
@@ -90,14 +50,8 @@
     </template>
   </div>
 
-  <!-------- 
   </section>
   </main>
-  --------->
-
-  <!---------------------------------------------------------------------->
-  <h1>Sample 4</h1>
-
 
 </body>
 </html>
