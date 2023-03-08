@@ -9,13 +9,14 @@ body {
   border: 1px solid black;
 }
 .page-title {
-  background-color: blue;
-  color: white;
+  background-color: rgb(187, 187, 247);
+  color: black;
   text-align: center;
   margin-top: 2px;
 	margin-bottom: 2px;
   margin-left: 100px;
   margin-right: 100px;
+  border: 1px solid black;
 }
 h1 {
   font-style: bold;
