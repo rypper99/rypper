@@ -248,8 +248,20 @@ ol li {
   vertical-align:"bottom";
   background-color: black;
   color: yellow;
-  text-align: center;
+  text-align: left;
   font-size: larger;
+}
+
+.fund-table a:link  a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  }
+
+.fund-table a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 .fund-table th {
