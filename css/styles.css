@@ -69,7 +69,7 @@ table, th, td {
   text-align: right;
   /*font-size: 30px;*/
   /* position: -webkit-sticky; */
-  position: sticky;
+  /* position: sticky; */
 }
 
 /* Links inside the navbar */
