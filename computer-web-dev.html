@@ -15,36 +15,56 @@
 	})
 </script>
 </head>
-<body>
-	<div id="navbar"></div>
-	<div class="page-title">Web Development</div>
 
-	<h1>Tools</h1>
-		<ul>
-			<li><a href="https://fontawesome.com/">Font Awesome - icons for pages</a></li>
-			<li><a href="https://code.visualstudio.com/docs/?dv=win">VS Code documentation</a></li>
-		</ul>
+<body class="finance-page">
+	<div class="page-header">
+		<div id="navbar"></div>
+		<p class="page-title">Web Development</p>
+	</div>
 
-	<h1>Pictures</h1>
-		<ul>
-			<li><a href="./drawio/web-dev-drawio.html" target="_blank" >Web Development Pictures (new window)</a></li>
-		</ul>
+	<div class="main">
+		<button type="button" class="collapsible-item">Tools</button>
+		<div class="collapsible-content">
+			<ul>
+				<li><a href="https://fontawesome.com/">Font Awesome - icons for pages</a></li>
+				<li><a href="https://code.visualstudio.com/docs/?dv=win">VS Code documentation</a></li>
+			</ul>
+		</div><!-- content -->
 
-	<h1>PyScript</h1>
-		<ul>
-			<li><a href="https://pyscript.net/" target="_blank" >Pyscript</a> - Run Python in your HTML</li>
-			<li><a href="./computer-pyscript.html" >Pyscript samples</a></li>
-		</ul>
+		<div class="main">
+			<button type="button" class="collapsible-item">Diagrams</button>
+			<div class="collapsible-content">
+				<ul>
+					<li><a href="./drawio/web-dev-drawio.html" target="_blank" >Web Development Pictures (new window)</a></li>
+				</ul>
+		</div><!-- content -->
 
-	<h1>Videos</h1>
-		<ul>
-			<li><a href="https://www.youtube.com/watch?v=5YDVJaItmaY" target="_blank" >
-				WEB DEVELOPMENT explained in 10 minutes</a></li>
-			<li><a href="https://www.youtube.com/watch?v=ysEN5RaKOlA" target="_blank" >
-				Learn web development as an absolute beginner</a></li>
-			<li><a href="https://www.youtube.com/watch?v=PCWaFLy3VUo" target="_blank" >
-				Web Components Crash Course</a></li>
-		</ul>
+		<div class="main">
+			<button type="button" class="collapsible-item">PyScript</button>
+			<div class="collapsible-content">
+				<ul>
+					<li><a href="https://pyscript.net/" target="_blank" >Pyscript</a> - Run Python in your HTML</li>
+					<li><a href="./computer-pyscript.html" >Pyscript samples</a></li>
+				</ul>
+			</div><!-- content -->
+
+		<div class="main">
+			<button type="button" class="collapsible-item">Videos</button>
+			<div class="collapsible-content">
+				<ul>
+					<li><a href="https://www.youtube.com/watch?v=5YDVJaItmaY" target="_blank" >
+						WEB DEVELOPMENT explained in 10 minutes</a></li>
+					<li><a href="https://www.youtube.com/watch?v=ysEN5RaKOlA" target="_blank" >
+						Learn web development as an absolute beginner</a></li>
+					<li><a href="https://www.youtube.com/watch?v=PCWaFLy3VUo" target="_blank" >
+						Web Components Crash Course</a></li>
+				</ul>
+		
+			</div><!-- content -->
+
+	</div> <!-- main -->
+
+	<script src="./scripts/collapsible-item.js"></script>
 
 </body>
 </html>
