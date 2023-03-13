@@ -57,13 +57,14 @@ table, th, td {
   border:0px solid black;
 }
 
-.header {
+.page-header {
   position: -webkit-sticky; 
   position: sticky; 
+  background-color: grey;
 }
 
 .main {
-  margin-top: 15px; /* Add a top margin to avoid content overlay */
+  margin-top: 50px; /* Add a top margin to avoid content overlay */
 }
 
 /* The navigation bar */
