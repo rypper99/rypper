@@ -10,12 +10,965 @@
 </script>
 <script>
 	$(function(){
-		$('#header').load('navbar-main.html')
+		$('#navbar').load('navbar-main.html')
 	})
 </script>
 </head>
 <body>
-	<div id="header"></div>
+	<div class="page-header">
+		<div id="navbar"></div>
+		<p class="page-title">Books</p>
+	</div>
+
+	<div class="main">
+		<h1>Recommendations</h1>
+
+		<button type="button" class="collapsible-item">Excellent (would recommend to others)</button>
+		<div class="collapsible-content">
+			<ul>
+				<li>Reboot Your Portfolio (Dan Bortolotti) <a href="#reboot-portfolio">review</a></li>
+			</ul>
+		</div>
+
+		<button type="button" class="collapsible-item">Enjoyed</button>
+		<div class="collapsible-content">
+			<ul>
+				<li></li>
+			</ul>
+		</div>
+
+		<button type="button" class="collapsible-item">Not recommend or never finished</button>
+		<div class="collapsible-content">
+			<ul>
+				<li></li>
+			</ul>
+		</div>
+	
+		<hr>
+		<h1>Reviews</h1>
+
+		<button type="button" class="collapsible-item" id="reboot-portfolio">
+			<u>Reboot Your Portfolio</u> (Dan Bortolotti) - review</button>
+		<div class="collapsible-content">
+			<p>Book is an excellent resource for an index investor.  Not only provides reasoning/theory but also includes many examples and detailed instructions
+				on how to do it.  Steps reader from understanding index investing to implementing a portfolio with a brokerage.
+				<br>
+				<h4><u>Step 1 - Stop Trying to Beat the Market</u></h4>
+					<ul>
+					<li>Why it is hard to beat the market	
+						<ul>
+						<li>Past performance doesn't predit future returns.
+						<li>Price of stock reflects expectations of how company will do in the future
+						<li>Price is not based on currents assets, sales or profitability or past performance.  
+						<li>Hard to predict future ==> Publically available information already built into price
+						</ul>
+					<li>Mutual Funds
+						<ul>
+						<li>puchased through a dealer
+						<li>can have a higher MER
+						<li>Free to buy (no commission fee) and can setup automatic contributions.  
+						<li>If account size is small, higher fee has little impact
+						<li>good for modest portfolio making small regular contributions
+						</ul>
+					<li>ETFs
+						<ul>purchased on an exchange via a broker
+						<li>have a low MER
+						<li>pay commission on every buy / sell
+						<li>No automatic contributions available
+						</ul>
+					</ul>
+				<h4><u>Step 2 - Set your Financial Goals</u></h4>
+					<ul>
+					<li>Understand your goals. Can't get anywhere if you don't know where you are going.  
+					<li>How much do I need?  How much can I withdraw?
+					</ul>
+				<h4><u>Step 3 - Finding the right mix of stocks and bonds</u></h4>
+					<ul>
+					<li>Determine right assest allocation for your goal and adjust as you get closer to your goal.
+					<li>Bonds: yield to maturity (total return to expect if interest rates do not change) predictor over medium term.
+					<li>How much volatility can you take?  
+						<ul>
+						<li>Equity markets between 1970 and 2020 (50 years)
+							<ul>
+							<li>averaged 9%-11%
+							<li>7 years returns in the 5%-11% range
+							<li>11 years returns less than -2% 
+							<li>19 years returns with gains atleast 18%.
+							</ul>
+						<li>Less volatility with diversified asset classes with low correlation (ex. stocks and high-quality government bonds)
+						<li>Magic of 20-80 (mixing stocks and bonds) from 1980-2020
+							<ul>
+							<li>100% bond  /  0% global stocks (8.6% return with standard deviation 6.1%)
+							<li> 80% bonds / 20% global stocks (9% return with standard deviation 5.9%).  
+							<li> 20% bonds / 80% global stocks significantly lower volatility vs 100% equities with only modestly lower returns
+							</ul>
+						</ul>
+					<li>How much risk do you need to take?  What return do you need to achieve your goal?
+						<ul>
+						<li>Any money needed in 5 years should not be in stocks use HISA or GIC instead
+						<li>Determine Expected return (should be viewed with a time horizon of 20 years)
+							<ul>
+							<li>stocks: return average of 5% over inflation(1.5%) for 6.5%
+							<li>bonds: yield to maturity (total return if interest rates do not change) predictor of bonds over medium term (i.e VAB : 1.8%)
+							<li>Portfolio 40% bonds / 60 % stocks expected return
+								<ul>
+								<li>bonds (1.8% * 40% = 0.72) + stocks (6.5% * 60% = 3.9%) = 4.62%
+								<li>which you can compare to your targe rate to see if this will work or you need more risk.
+								</ul>
+							</ul>
+						</ul>
+					</ul>
+				<h4><u>Step 4 - Fine-Tune your Asset Allocation</u></h4>
+					<ul>
+					<li>Create all-weather portfolio by diversifying across several types of asset classes.
+					<li>Combining 2 or more asset classes reduces volatility but avoid adding redundant asset classes
+					<li>Asset Class is group of investments with risk and return characteristics that are similar to each other.
+						<ul>
+						<li>Stocks
+							<ul>
+							<li>Canadian
+								<ul>
+								<li>only 3% of world market
+								<li>concentrated on big banks/natural resources
+								<li>no currency risk 
+								<li>dividends taxed favourably
+								<li>Vanguard found portfolios 20-40% Canada - reduced volatility in balanced portfolios
+								</ul>
+							<li>US
+							<li>International-Developed (western Europe, Japan, Australia)
+							<li>International-Emerging (China, Brazil, India,...)
+							</ul>
+						<li>REITs (Real Estate Investment Trust)
+							<ul>
+							<li>technically stocks that are not highly correlated to stock market
+							<li>own real estate: shopping malls, apartments, hotels, commercial properties
+							<li>law requires them to pass most of their revenue to shareholders (to avoid corporate tax)
+							<li>provide steady stream of income that is not eligible for dividend tax credit - tax inefficient
+							<li>REIT ETFS typically less than 20 holdings and dominated by large companies
+							<li>fees generally higher than broad-market funds
+							<li>recommendation to avoid: 
+								<ul>
+								<li>REITs are part of broad-market equity funds so you are double dipping
+								<li>similar to adding utility/technology stocks on top of a broad-market index funds
+								</ul>
+							</ul>
+						<li>Preferred Shares
+							<ul>
+							<li>hybrid - between equities and fixed income
+							<li>technically stocks with a fixed dividend that must be paid earnings distributed to common shareholders (little like corporoate bond)
+							<li>yield can be quite high compared to common stocks anb bonds but less potential for price appreciation
+							<li>taxed more favourably than interest so appealing in taxable accounts as alternative to corporate bonds
+							<li>make less sense in tax sheltered accounts (i.e. TFSAs, RRSPs)
+							<li>ETFs will track preferred share index
+							<li>recommendation to avoid: 
+								<ul>
+								<li>usually issued by banks and insurance companies but Canadian stock market already dominated by financial institutions 
+								<li>difficult to understand
+									<ul>
+									<li>what you are holding
+									<li>how those preferred shares are expected to behave under various market conditions
+									</ul>
+								<li>their risk-reward trade-offs have been historically poor
+									<ul>
+									<li>2007-2020 S&P/TSX Perferred Share Index delivered 2% annually
+									</ul>
+								</ul>
+							</ul>
+						<li>Bonds
+							<ul>
+							<li>Government (investment grade) : federal and provincial
+							<li>Corporate (investment grade) : blue-chip companies with strong balance sheet
+							<li>Government (real-return)
+								<ul>government bond with its yield tied to inflation
+								<li>designed to avoid bonds (especially with long maturity) being vulnerable to inflation
+								<li>value get adjusted as Consumer Price Index changes
+								<li>only tiny amount available in Canada
+								<li>reason to avoid
+									<ul>
+									<li>have long maturity (into 2040s) so subject to big price swings
+									</ul>
+								</ul>
+							<li>Corporate (high-yield)
+								<ul>
+								<li>companies with poor balance sheets or governments with low credit ratings
+								<li>higher rate but higher risk of default (aks junk bonds)
+								<li>reason to avoid
+									<ul>
+									<li>fixed income is supposed to provide safety
+									</ul>
+								</ul>
+							<li>Canadian (no currency risk)
+							<li>US (currency risk - only use if have currency hedging)
+							<li>International (currency risk - only use if have currency hedging))
+							<li>Short term: mature in less than 5 years (less volatile but lowest expected returns)
+							<li>Intermediate term: mature in 5-10 years 
+							<li>Long term : mature more than 10 years (most volatile but pay higher yields)
+							<li>Broad-Market : 45% Short, 25% Intermediate, 30% Long
+							</ul>
+						<li>GICs
+							<ul>
+							<li>pay fix rate over term (1 to 5 years)
+							<li>usually higher returns than government bonds of same term
+							<li>CDIC backing (up to 100,000)
+							</ul>
+						<li>commodities
+							<ul>
+							<li>gold
+								<ul>
+								<li>has little correlation with stocks and bonds - percieved as safe haven during crisis
+								<li>volatile asset whose price is based upon sentiment
+								<li>touted as a hedge against inflation but many periods when inflation rose gold fell
+								<li>1983-2004 (high inflation period) - gold lost half it's purchasing power
+								<li>higher rate but higher risk of default (aks junk bonds)
+								<li>reason to avoid
+									<ul>
+									<li>generates no income and not potential for growth so value difficult to understand
+									</ul>
+								</ul>
+							</ul>
+						<li>asset classes not pratical for average investor - can't be replicated by ETFs
+							<ul>
+							<li>Private Equity are companies not traded on a stock exchange
+							<li>natural resourse like timberland
+							<li>collectibles (i.e. rare coins, fine wine or art)
+							</ul>
+						</ul>
+					<li>Asset Allocation mix - rule of thumb
+						<ul>
+						<li>Stock (equally across Canada, US, International)
+							<ul>
+							<li>33.3% - Canada
+							<li>33.3% - US
+							<li>25.0% - International (Developed)
+							<li>08.3% - International (Emerging)
+							</ul>
+						<li>Fixed Assets
+							<ul>
+							<li>50% - Bond
+								<ul>
+								<li>70-80% - Government (Investment Grade)
+								<li>30-20% - Corporate (investment grade)
+								</ul>
+							<li>50% - GICs 
+							</ul>
+						</ul>
+					</ul>
+				<h4><u>Step 5 - Select your ETFs</u></h4>
+				<p>Indexes were orignally designed to be simple, standard ways of measuring market performance (benchmarks)  
+				<ul>
+				<li>For example, Dow Jones Industrial Average (DJIA) create in 1896
+				and still widely followed but for it a committee hand picks 30 companies weighted to those with higher share price.  Made sense years ago when the
+				calculations were with pen/paper but not as useful today.
+				</ul>
+				<p>In the 1970s, John Bogle pioneered the idea of using popular indexes as an investing strategy (i.e. index ETF). Fund holdings were determined by
+				following a third-party index designed to represent an entire asset class vs. by stock-picking gurus.
+				<p>ETFs like a mutual fund holds diversified collection of stocks and bonds but differs in that ETF is traded on an exchange (like stocks) vs. 
+				purchasing from a dealer.
+				
+				<p>Active investors focus on <b>alpha</b>
+				<ul>
+				<li>alpha is picking stocks and timing market trying to outperform index
+				</ul>
+				<p>Index investors focus on <b>beta</b>
+				<ul>
+				<li>beta is measure of risk: high beta more sensitive to market ups/downs
+				<li>index fund is designed to mimic performance of overall market - i.e. capture beta
+				</ul>
+				
+				<h4>Index ETF</h4>
+				<ul>
+				<li>ETF tied to a specific index (a set of rules that determine which stocks or bondsd are included)
+				<li>need to research index to determine what ETF invests in
+					<ul>
+					<li>most providers published their methodologies each to find with a google search
+					<li>methodology can be complex with alot of equations
+					<li>focus on the overall strategy, is it broad/inclusive or does it impose alot of rules and screens?
+					<li>Researching ETFs is not easy (hard to find clear, complete info about ETFs)
+						<ul>
+						<li>start with fund's web page (benchmark index, annual fee, historical performance, current holdings)
+						<li>check Fund Facts summary, Prospectus or semi-annual Management Report of Fund Performance (linked on fund web page)
+						</ul>
+					</ul>
+				<li>providers have similar indexes.  Recently, more common to use lesser-known providers due to lower licensing fees
+					<ul>
+					<li>S&P Dow Jones
+					<li>Russell 3000 index
+					<li>MSCI 
+					<li>FTSE 
+					<li>Solactive 
+					</ul>
+				<li>indexes look at liquidity - may exclude stocks that are: rarely traded stocks or closely held by small group of owners 
+				<li>will have rules how frequently it will be updated (often reviewed/updated quarterly)
+				</ul>
+				
+				<h4>Traditional indexing ETF</h4>
+				
+				<ul>
+				<li>Every country with a stock market has traditional index(s) designed to track that stock market gathering stock information (such as price changes and dividend payments)
+				<li>Samples
+					<ul>
+					<li><b>S&P 500 Composite index</b> : top 500 US companies with more influence (weight) to larger companies
+					<li><b>S&P/TSX Composite:Canada index</b> : top 250 Canadian companies with more influence (weight) to larger companies
+					<li><b>MSCI EAFE</b> (Europe, Australasia, Far East) - Developed markets
+					<li><b>MSCI Emerging Markets Index</b> (China, Taiwan, South Korea, India and about 20 others)
+					<li><b>FTSE Canadian Universe Bond Index</b> (government/corporate bonds including short to long term)
+					</ul>
+				<li>"cap-weighted" indexes are traditional tool of index investors
+					<ul>
+					<li>select largest and most traded companies and weight them by market cap (stock price x # shares outstanding)
+					<li>most representative of overall stock market - i.e. "buy" the market
+					<li>ususally they are the cheapest (i.e. 0.03% - 0.06%)
+					<li>usually have the lowest turnover (i.e. stocks rarely sold / replaced)
+						<ul>
+						<li>fewer realized capital gains means more tax-efficent in non-registered accounts
+						</ul>
+					<li>"Capped" index will set limit how much an individual stock can make up the indexed (i.e. not more than 10%)
+					<li>look for indexes providing broadest possible exposure to asset class	
+						<ul>
+						<li>S&P 500 is good but only holds 500 companies (representing 80% of market)
+						<li>iShares Core S&P US Total Market (XUU) holds top 500 plus 3,000 mid-sized and small companies
+						</ul>
+					<li>popular indexes that do NOT do good job of representing asset class
+						<ul>
+						<li>DJIA - weighted to share price (vs. market cap), only includes 30 companies (selected by committee)
+						<li>NASDAQ 100
+							<ul>
+							<li>based on largest 100 non-financial companies on NASDAQ (only 15% of US market)
+							<li>NASDAQ poor diversified: 50% technology and 20% communication services (Meta, Google, Netflix)
+							<li>17.1% returns from 2011-2020 but 2000-2002 lost 78%
+							</ul>
+						</ul>
+					</ul>
+				<li>"equal-weighted" indexes assigns same proportion to each stock
+					<ul>
+					<li>useful when focused on individual sector where total number of stocks is small (i.e. REITs)
+					<li>not useful when index has hundreds of companies
+						<ul>
+						<li>impact of sector dependent on # of companies vs. size/impact of companies
+						<li>ex. in Canada 5 big banks same as 5 small mining companies
+						</ul>
+					</ul>
+				</ul>
+				
+				<h4>Alternative indexing / Fundamental indexing / smart beta ETF</h4>
+				<ul>
+				<li>many new ETFs uses indexes that screen by following a set of rules
+					<ul>
+					<li>target on "factors" - total sales, dividends, cash flow, book value, etc.
+					<li>research suggests might be able to outperform simple index by choosing stocks with certain characteristics
+					<li>generally give more influence to mid-sized companies that meet traditional definition of undervalued
+					</ul>
+				<li>more expensive than traditional ETFs (0.15% - 0.75%) but cheaper than mutual funds (2%)
+				<li>smart beta more to do with marketing than empirical evidence
+					<ul>
+					<li>traditional indexes need to compete with Vanguard/iShares charging very small fees on billions in assets
+					<li>business model to promise index-beating returns and charge higher-fees
+					</ul>
+				<li>common factors used:
+					<ul>
+					<li><b>value</b>
+						<ul>
+						<li>stocks with lower prices relative to their fundamentals
+						<li>common measures: low price-to-book ratio, price-earnings ratios, high dividend yield
+						</ul>
+					<li><b>company size</b>
+						<ul>
+						<li>small companies have often delivered higher returns than large companies over very long term
+						<li>possible reason is investors rewarded for smaller company risks:
+							<ul>
+							<li>more sensitive to business cycles
+							<li>higher cost of capital
+							<li>more likely to go belly up
+							<li>more dramatic swings in their stock prices
+							</ul>
+						</ul>
+					<li><b>momentum</b>
+						<ul>
+						<li>evidence when stock price changes:
+							<ul>
+							<li>if rise, they continue to rise for medium term
+							<li>if fall, they continue to fall for medium term
+							</ul>
+						<li>medium term sweet spot is 2 or 3 months to 12 months
+						<li>targeting momemtum will see lots of turnover
+						</ul>
+					<li><b>low volatility</b>
+						<ul>
+						<li>evidence show low volatility stocks tend to outperform or similar return with less risk
+						</ul>
+					<li><b>quality (profitability)</b>
+						<ul>
+						<li>companies with strong balance sheets and profitable businesses tend to outperform
+						<li>in efficient markets, these companies should be expected to have higher stock prices (i.e. not cheap)
+						</ul>
+					</ul>
+				<li>hurdles trying to benefit from "smart beta" ( or factors)
+					<ul>
+					<li>higher management fees than traditional indexes (usually above 0.50 %)
+					<li>higher trading costs (more frequent rebalancing)
+					<li>hard to research what is "under hood" to choose one (left with past performance - not best indicator)
+						<ul>
+						<li>value (2 funds that have varied by 12%)
+							<ul>
+							<li>iShares Canadian Value Index (CSV) - 50 stocks skewed to big banks
+							<li>First Asset Morningstar Canada Value Index (FXM) - 30 stocks and none are 5 big banks
+							</ul>
+						<li>low-volatility
+							<ul>
+							<li>ETFs from PowerShares, BMO and iShares - use different methodologies with significant variation in returns
+							<li>
+							</ul>
+						</ul>
+					<li>value factor has been battle tested but others have shorter histories and sample size
+					<li>as the factors become more widely known then their premiums may shrink
+						<ul>
+						<li>for example, research showed outsized returns on small-caps during an era when they were harder to trade
+						<li>low-cost brokerages and ETFs have caused the premium to shrink
+						</ul>
+					<li>are you willing to stick with factors when they are under-performing traditional indexes
+						<ul>
+						<li>factors like value, size, momentum can lag market for long periods
+						<li>will you lose patience after a year or 2, you might jump to another factor nearing end of its current run
+						<li>
+						</ul>
+					<li>if you convince yourself smart beta is better than traditional indexes, you are more than likely to second-guess your decisions
+					<li>
+					</ul>
+				</ul>
+				
+				<h4>Currency Hedging</h4>
+				<p>ETFs investing in non-Canadian markets will have a second layer of risk with currency
+					<ul>
+					<li>if loonie rises against currency, your investment value in Canadian dollars will fall
+					<li>if loonie falls against currency, your investment value in Canadian dollars will rise
+					</ul>
+				<p>Eliminating currency risk in Canadian ETFs
+					<ul>
+					<li>name includes "hedged to CAD" or "currency neutral"
+					<li>they use a strategy called currency hedging to eliminate fluctuations
+					</ul>
+				<p>Recommend: avoiding currency-hedging in most cases
+					<ul>
+					<li>over long term, currency fluctuations will go in both ways
+					<li>if goal is to reduce volatility and risk, currency hedging should not be expected to help
+					<li>studies have shown adding foreign currency exposure tends to lower exposure for Canadian equity investors
+					<li>US, euro and Swiss franc tend to have negative correrelation to global equity markets
+					</ul>
+				<p>Buying ETFs on US exchanges 
+					<ul>
+					<li>doesn't help if you still measure value in Canadian dollars
+					<li>recommends buying only Canadian-listed ETFs even though management fees on US listed funds are lower
+					</ul>
+					
+				<h4>Tracking Error</h4>
+				<p>difference between theory of index and practice of implementing it
+					<ul>
+					<li>fund will have:
+						<ul>
+						<li>MER - management fees
+						<li>TER - trading expense ratio (transaction costs)
+						<li>withholding taxes on dividends in foreign markets (average 15%)
+						<li>taxes
+						<li>sampling
+							<ul>
+							<li>some benchmarks are difficult or impossible to replicated
+							<li>when fund manager can't purchase holding in index so does best with what's available (sampling)
+							</ul>
+						</ul>
+					<li>benchmark 8% and fund 7.5% then tracking error 0.5%
+					</ul>
+				<p>When comparing funds, not enough to compare just MER.  ETF with slightly higher MER but consistenly lower tracking error might be better choice.
+				
+				<h4><u>Step 6 - Open Your Account</u></h4>
+				<p>Options
+					<ul>
+					<li>Full service advisor
+						<ul>
+						<li>find reasonable fee (less than 1% of money managed)
+						<li>can help manage multiple accounts and types
+						<li>help you avoid tinkering and reacting to markets
+						<li>provide financial planning
+						</ul>
+					<li>Robo-advisor
+						<ul>
+						<li>fee around 0.5% of money managed
+						<li>portfolio automatically managed
+						<li>some (Questwealth) are actively managed (no index investing)
+						<li>no financial planning advice - upplement with fee-for-service advisor for planning
+						</ul>
+					<li>Online Brokerage
+						<ul>
+						<li>most are pretty similar
+						<li>no financial planning advice - supplement with fee-for-service advisor for planning
+						<li>check on administration fees
+						<li>check on trading commissions (varies from $6.95 to $9.95 for trade)
+						<li>check on product offerings available (i.e. GICs)
+						</ul>
+					</ul>
+				<p>Cutting ties with your advisor
+					<ul>
+					<li>good advice in book to prepare for discussion
+					</ul>
+				<p>Making the transition to an online brokerage 
+					<ul>
+					<li>compare: in-kind transfers vs.in-cash transfers
+					<li>consider taxes on non-registered accounts
+					<li>consider DSCs on mutual funds
+					</ul>
+					
+				
+				<h4><u>Step 7- Build Your Portfolio</u></h4>
+					<ul>
+					<li>Placing your orders
+						<ul>
+						<li>get a quote by entering ticker
+							<ul>
+							<li>bid : what you will get when you sell
+							<li>ask : what you will pay when you buy (always higher)
+							</ul>
+						<li>determine # shares = (how_much_cash_you_have - commission) / share price
+						<li>enter buy order
+							<ul>
+							<li>market order - buy # shares at current market price (can vary from quote)
+							<li><b>limit order</b> - specify max you are willing to pay
+								<ul>
+								<li><b>Always use limit order</b>
+								<li>set limit price 0.01 above ask (order will fill if price ticks up)
+								<li>use <b>"day order"</b> - lasts until markets close
+								</ul>
+							</ul>
+						<li>settlement
+							<li>buying
+								<ul>
+								<li>holding shows in your account immediately
+								<li>doesn't settle for 2 business days
+								<li>not official owner until settlement date
+								</ul>
+							<li>selling
+								<ul>
+								<li>holding disappears from your account
+								<li>doesn't settle for 2 business days
+								<li>you are official owner until settlement date
+								<li>money from sale not in your account until settlement date
+								</ul>
+							<li>dividends
+								<ul>
+								<li>dividends are paid to the offical owner on that dividend date
+								</ul>
+							<li>GICs
+								<ul>
+								<li>settle same day or next business day
+								</ul>
+							<li>Be aware of timing of settlements (example)
+								<ul>
+								<li>10th @ 10:00 - sell $10,000 shares of X
+									<ul>
+									<li>money will arrive when trade settles (2 business days)
+									</ul>
+								<li>10th @ 13:00 - buy $10,000 GIC
+									<ul>
+									<li>money will be taken from account when GIC trade settles (same day or next business day)
+									<li>the brokerage might charge you interest on $10,000 from 10th - 12th 
+									</ul>
+								<li>12th - money from sale of X shares arrives
+								</ul>
+							</ul>
+						</ul>
+					<li>Tricks of the Trade
+						<ul>
+						<li>watch your costs	
+							<ul>
+							<li>commissions
+								<ul>
+								<li>small trades can be costly and eat into returns
+								<li>some brokerages do offer no commissions
+								</ul>
+							<li>bid-ask spread 
+								<ul>
+								<li>difference between bid and ask price
+								<li>buying ===> always will pay slightly more than the true value
+								<li>selling ==> always will get slightly less than the true value
+								<li>example: buy 100 shares and immmediately sell
+									<ul>
+									<li>even if no commissions you will have less money due to bid-ask spread
+									</ul>
+								<li>bid-ask related to liquidity of stocks	
+									<ul>
+									<li>more liquid stocks
+										<ul>
+										<li>large frequently traded holdings
+										<li>have a very tight bid-ask spread (i.e. 0.01)
+										</ul>
+									<li>less liquid stocks
+										<ul>
+										<li>small holding only trading few shares daily
+										<li>have a wider bid-ask spread
+										<li>a large order can move the price
+											<ul>
+											<li>not applicable to ETFs where price set based upon underlying holdings and not influenced how often traded
+										</ul>
+									</ul>
+								<li>generally ETFs with high price cost less from bid-ask perspective
+									<ul>
+									<li>if shares are higher, you are buying less shares for same money
+									<li>less shares means bid-ask difference on less shares
+									</ul>
+								<li>not a concern for long-term investors making infrequent trades
+								<li>concern for investors trading too frequently (differences add up)
+								<li>
+								</ul>
+							</ul>
+						<li>"market makers"
+							<ul>
+							<li>investment dealer (often a big bank) hired by fund
+							<li>creates and redeems large blocks of ETF units as necessary
+							<li>large inflow to fund => buy underlying holdings on open market and add ETF shares into market
+							<li>large outflow from fund fund =>sell underlying holdings on open market and remove ETF shares from market
+							</ul>
+						<li>only trade when markets open	
+							<ul>
+							<li>never place an order on an exchange when markets closed
+								<ul>
+								<li>at opening, can take time for ETFs prices to be updated and adjusted
+								<li>so you don't want your order sent a millisecond after opening bell
+								<li>pricing anomalies are most likely in 15 mins after open and 15 mins before close
+									<ul>
+									<li>most providers recommend avoid trades 15 mins after open and 15 mins before close
+									</ul>
+								</ul>
+							</ul>
+						<li>avoid trading on TSX when US market closed
+							<ul>
+							<li>Candian and US markets closed on holidays but have different holidays
+							<li>if TSX open and US closed and fund holds US stocks
+								<ul>
+								<li>US stocks do not reflect changes from previous days
+								<li>might see bid-ask spread wider than normal - signal not to place trade
+								</ul>
+							</ul>
+						</ul>
+					<li>Using DRIP (Dividend Reinvestment Program)
+						<ul>
+						<li>when enrolled in DRIPs	
+							<ul>
+							<li>receive dividend/interest payments in form of new ETF units (vs. cash)
+							<li>only can be whole units (rest paid in cash)
+							</ul>
+						<li>can usually enroll online
+						<li>not every ETF is eligible at every brokerage
+						<li>great for TFSA and RRSP but avoid in non-registered accounts	
+							<ul>
+							<li>can complicate record keeping for a non-registered account
+							<li>mop up idle cash on next trade instead
+							</ul>
+						</ul>
+					<li>Should you use US-listed ETFs
+						<ul>
+						<li>PROs
+							<ul>
+							<li>US-listed ETFs usually have lower fees
+							<li>US-listed ETFs may be more tax efficient in RRSP (not TFSAs)
+								<ul>
+								<li>US holdings in RRSP are exempt from dividend withholding tax
+								</ul>
+							</ul>
+						<li>CONs
+							<ul>
+							<li>trades must be done in US dollars 
+							<li>currency exchange rates charged by online brokerages are terrible
+							<li>if account non-reg, additional book keeping	
+								<li>capitial gains/loss need to be reported in Canadian dollars
+								<li>you need to record exchange rate on day you buy and sell
+								</ul>
+							<li>if non-reg account includes US-listed ETFs with cost > $100,000
+								<ul>
+								<li>must report to CRA using Form T1135 (Foreign Income Verification Statement)
+								</ul>
+							</ul>
+						<li>easier to buy ETFs on TSX - less complexity
+						</ul>
+					</ul>
+				
+				
+				
+				<h4><u>Step 8 - Keep It In Balance</u></h4>
+					<ul>
+					<li>Rebalancing
+						<ul>
+						<li>goal to keep portfolio risk level consistent
+						<li>rebalance : sell assets that did well and add to under-performers
+						<li>following strategy: sell high and buy low
+						<li>simplifies decision where to add new money	
+							<ul>
+							<li>avoids temptation to add to asset class with recent good performance
+							</ul>
+						</ul>
+					<li>How often should your reblance?
+						<ul>
+				
+						<li>determine your frequency (or combination)
+							<ul>
+							<li>Rebalance at regular interval
+								<ul>
+								<li>choose: annually, semi-annually, quarterly, monthly
+								<li>academic studies done but research is inconclusive which option is best
+								<li>once a year should be fine for most investors
+									<ul>
+									<li>reasons to do early in year (when cash balance highest)
+										<ul>
+										<li>timed around new contributions (i.e. TFSA)
+										<li>ETFs have distributions at end of calendar year
+										</ul>
+									</ul>
+								</ul>
+							<li>Rebalance based on Thresholds
+								<ul>
+								<li>reblance when targets off by certain percentage 
+								<li>follow "5/25" rules from Larry Swedroe
+									<ul>
+									<li>absolute 5% - more useful for larger asset class
+										<ul>
+										<li>bond target is 40%
+											<ul>
+											<li>rebalance when < 35% or > 45%
+											</ul>
+										</ul>
+									<li>relative 25% - more useful for smaller asset class
+										<ul>	
+										<li>emerging markets is 10%
+											<ul>
+											<li>reblance when < 7.5% or > 12.5%
+											</ul>
+										</ul>
+									</ul>
+								<li>more work to monitor and execute
+								<li>harder emotionally - selling what's hot and buying what is not
+								<li>more rebalancing when markets volatile
+								</ul>
+							<li>Rebalance with cash flow
+								<ul>
+								<li>add new money to underweight asset class(es)
+								<li>small contributions ($500 month) might not move needle and increase transaction costs
+								<li>good for taxable accounts - avoid selling asset classes that are overweight (capital gains)
+								<li>if in draw down stage, can rebalance with cash outflows
+								</ul>
+							</ul>
+						<li>too frequently will increase transaction costs and trigger taxes
+						</ul>
+					<li>The one fund alternative
+						<ul>
+						<li>PROs
+							<ul>
+							<li>all asset classes in 1 fund
+							<li>automatically rebalanced (per fund rules)
+								<ul>
+								<li>rebalancing across multiple account can be difficult
+								</ul>
+							<li>saves on trading costs (less funds to buy/sell)
+							<li>allows for DRIPs
+							</ul>
+						<li>CONs
+							<ul>
+							<li>slightly higher fees than holding individual funds
+								<ul>
+								<li>VBAL 0.25% vs 0.16% holding individual funds
+								<li>0.25% still low MER and saves on trading costs
+								</ul>
+							<li>lose tax efficiency
+								<ul>
+								<li>some asset classes better for non-reg, TFSA or RRSP
+								<li>may want to hold Canadian equities in non-reg to get dividend tax credit
+								<li>tax efficiency needs to be excellent not optimal
+								</ul>
+							<li>asset allocation dictated by fund
+								<ul>
+								<li>choices are limited: 20/80, 40/60, 60/40, 80/20, 100/0
+								</ul>
+							</ul>
+						</ul>
+					<li>Breaking up is hard to do (many ETFs vs all-in-one)
+						<ul>
+						<li>Advisors
+							<ul>
+							<li>will hold individual ETFs vs all-in-one
+								<ul>
+								<li>optimize asset class by account (TFSA, RRSP, non-reg)
+								<li>save costs (i.e. 0.16% better than 0.25% for VBAL)
+								</ul>
+							<li>have tools/resources to manage
+							<li>have obligation to keep costs and taxes as low as possible 
+							<li>in small accounts - mights still use all-in-one
+							</ul>
+						<li>Do It Yourself (using individual ETFs)
+							<ul>
+							<li>need to determine appropriate account for each asset class (taxes)
+							<li>harder to rebalance across multiple accounts
+							<li>most costs to manage/reblance multiple funds
+							<li>will you stick with it over the long term?
+								<ul>
+								<li>Time - it will take more time to do this
+								<li>Complexity - it will be more complex
+								</ul>
+							</ul>
+						</ul>
+					</ul>
+				
+				<h4><u>Step 9 - Stay the Course most difficult part of index investing</u></h4>
+					<ul>
+					<li>Analysis paralysis
+						<ul>
+						<li>choice can be overwhelming
+						<li>people second guess their decisions when reading/learning about new funds
+						<li>paralyzed by investing large sums ( 2 ways to view it)
+							<ul>
+							<li>inherit $200,000 cash - how to invest
+								<ul>
+								<li>feel stocks overvalued and bonds will suffer with interest rate rise
+								</ul>
+							<li>inherit $200,000 portfolio of stocks/bonds
+								<ul>
+								<li>would you immediately sell everything and sit on the cash?
+								</ul>
+							</ul>
+						<li>Investing large sum (acording to reasrch)
+							<ul>
+							<li>Lump Sum vs Dollar Cost Averging (DCA)
+								<ul>
+								<li>Lump sum wins 2/3 of the time
+								<li>Lump sum loses 1/3 of the time
+								</ul>
+							</ul>
+						<li>Do NOT tie investing to events (events already baked into price), avoid:
+							<ul>
+							<li>I will invest when stocks drop 10%
+							<li>I will invest after election
+							<li>I will invest after interest rate announcement
+							<li>I will invest when things settle down and I am more comfortable
+							</ul>
+						<li>Scenario: Invest $200,000 into 60% equities + 40% bonds	
+							<ul>
+							<li>invest all the fixed income (i.e. $80,000)
+								<ul>
+								<li>bond valuations are usually small
+								</ul>
+							<li>Use DCA with equities ($120,000)
+								<ul>
+								<li>$30,000 now
+								<li>$30,000 every 3 months after (mark the calendar - ignore events)
+								</ul>
+							</ul>
+						<li>DCA is not stress free - turns one difficult decision into 3 or 4
+						</ul>
+					<li>Addition to predictions
+						<ul>
+						<li>human brains hates randomness and uncertainity
+						<li>everyone has confident predictions but no certainity they are correct
+						<li>mainstream media competing for attention of people with short attention spans
+						<li>market commentators often work in industry pushing their products
+						<li>media outlets no longer pay for objective journalism
+						<li>industry professionals write for free to get exposure
+						<li>expertise leads to more confidence not necessarily more accuracy
+						</ul>
+					<li>The urge to pick stocks
+						<ul>
+						<li>a monkey could have as much success picking stocks
+						<li>why do we do it?  It is fun
+						<li>recommends against stock picking
+							<ul>
+							<li>risk is early success - think you are better than index fund
+							<li>will spend more time reading financial news
+								<ul>
+								<li>with focus on short term
+								<li>limitless capacity for inventing explanations for random market moves
+								<li>implies smart investors are ones who act on this news
+								</ul>
+							</ul>
+						</ul>
+					<li>The urge to do something
+						<ul>
+						<li>action bias: tendency to resist doing nothing even if action is counterproductive
+							<ul>
+							<li>example: bumber-to-bumber traffic constantly moving lane to lane
+							<li>studies show soccer goalies more successful standing still but fans don't agree
+							</ul>
+						<li>Why is this? For many things: the more we do, the better we get	
+							<ul>
+							<li>excelling at our jobs
+							<li>learning a new language
+							<li>getting in shape
+							</ul>
+						<li>Actions can hurt you in investing	
+							<ul>
+							<li>selling (panic) on a downturn
+							<li>jump on a rising stock
+							</ul>
+						<li>It takes discipline to avoid action
+						</ul>
+					<li>Fear of missing out
+						<ul>
+						<li>index investing takes a long term perspective (is not exciting)
+						<li>at some point your vanilla ETFs will lose their sexiness - tempted by "smart beta"
+						<li>we are condition to think simple solutions are unsophisticated
+						<li>with large portfolio tempted by "opportunities" due to size	
+							<ul>
+							<li>hedge funds
+							<li>private equity
+							<li>peer-to-peer lending
+							<li>real estate partnerships
+							</ul>
+						<li>Product may offer outsize returns without undue risk but comes with
+							<ul>
+							<li>high expenses
+							<li>illiquidity
+							<li>lack of transparency
+							</ul>
+						<li>Be careful of things you don't clearly understand, could lead to:
+						</ul>
+					<li>Overestimating your risk tolerance
+						<ul>
+						<li>higher long-term returns comes with risk of larger short-term loses
+						<li>people often forget this and end up sell in panic with short term loses
+						<li>All equity portfolio can be good - if your time	
+							<ul>
+							<li>how will you react when the short-term loses arrive
+							<li>real possibility you could lose 50% your money
+							</ul>
+						<li>Remember rate of return has less effect on small portfolio	
+							<ul>
+							<li>start with a balance portfolio - to find out your risk tolerance
+							<li>how do you react when markets are down
+							</ul>
+						</ul>
+					<li>Believing the industry BS
+						<ul>
+						<li>Be careful of fearmongering it can have impact on investors
+						<li>Ask: Where is the info coming from, why are they saying it?
+						</ul>
+					<li>Not giving it time to work
+						<ul>
+						<li>Index investing is long term approach
+						<li>Making best decisions with knowledge at hand - no one knows the future
+						<li>focus on process giving you the best odds
+						<li>
+						</ul>
+					<li>Becoming an index zealot
+						<ul>
+						<li>Index investing is simple in concept but difficult to implement
+							<ul>
+							<li>have to fight human nature (i.e. action bias)
+							<li>requires discipline (i.e. rebalancing)
+							<li>not everyone is cut out to do index investing
+							</ul>
+						<li>Index investing is not right for everyone
+						<li>Active (mutual funds, stock picking) and Passive (index investing) are just options
+						<li>There is no one size that fits all
+						</ul>
+						
+					</ul>
+		</div>
+
+
+
 <h4>Books</h4>
 <hr>
 
@@ -952,6 +1905,9 @@ purchasing from a dealer.
 		
 	</ul>
 
+</div>
+
+<script src="./scripts/collapsible-item.js"></script>
 
 
 </body>
