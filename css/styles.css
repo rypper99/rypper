@@ -152,6 +152,10 @@ table, th, td {
   display: block;
 }
 
+.main {
+  margin-top: 15px; /* Add a top margin to avoid content overlay */
+}
+
 .fund-table {
   width:100%;
   margin-top: 5px;
