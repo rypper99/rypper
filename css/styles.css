@@ -61,6 +61,7 @@ table, th, td {
 .navbar {
   overflow: hidden;
   background-color: #333;
+  background-color: yellow;
   /*position: fixed;*/ /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -91,7 +92,7 @@ table, th, td {
 /* Dropdown button */
 .navbar-dropdown .navbar-dropbtn {
   font-size: 20px;
-  border: none;
+  /* border: none; */
   outline: none;
   color: white;
   padding-top: 2px;
