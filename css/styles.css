@@ -89,7 +89,7 @@ table, th, td {
 }
 
 /* Dropdown button */
-.navbar-dropdown .dropbtn {
+.navbar-dropdown .navbar-dropbtn {
   font-size: 20px;
   border: none;
   outline: none;
@@ -110,7 +110,7 @@ table, th, td {
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar-dropdown:hover .dropbtn {
+.navbar-dropdown:hover .navbar-dropbtn {
   background-color: red;
 }
 
