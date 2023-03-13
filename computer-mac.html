@@ -15,113 +15,124 @@
 	})
 </script>
 </head>
-<body>
-	<div id="navbar"></div>
-	<div class="page-title">MAC</div>
 
-	<h1>Screen Recording</h1>
-	<h5><a href="https://www.makeuseof.com/free-screen-recording-apps-without-time-limits-or-watermarks/">
-		The 5 Best Free Screen Recording Apps Without Time Limits or Watermarks</a></h5>
-	<br>
-	<h5>Create screen recording (MOV) using Quick Time player</h5>
-		<ul>
-			<li>change Sound Output to go to Screen recording audio
+<body class="finance-page">
+	<div class="page-header">
+		<div id="navbar"></div>
+		<p class="page-title">MAC</p>
+	</div>
+
+	<div class="main">
+		<button type="button" class="collapsible-item">Screen Recording</button>
+		<div class="collapsible-content">
+			<h5><a href="https://www.makeuseof.com/free-screen-recording-apps-without-time-limits-or-watermarks/">
+				The 5 Best Free Screen Recording Apps Without Time Limits or Watermarks</a></h5>
+			<br>
+			<h5>Create screen recording (MOV) using Quick Time player</h5>
 				<ul>
-				<li>open <em style="color:red">System Settings</em>
-				<li>open <em style="color:red">Sound</em>
-				<li>under <strong>Output</strong> choose <em style="color:red">Screen recording audio</em>
-				</ul>
-			<li>Starting recording
-				<ul>
-					<li>Start Quicktime</li>
-					<ul>
-						<li>open QuickTime Player + choose <em style="color:red">File > New Screen Recording</em> -or-</li>
-						<li><em style="color:red">shift + command + 5</em></li>
-					</ul>
-				<li>click on <em style="color:red">Options</em>
-					<ul>
-					<li>choose <em style="color:red">Quick Time input</em> (I had to choose BlackHole 16ch)
-					</ul>
-				<li>click <em style="color:red">Record</em> to start recording
-				</ul>
-			<li>Stop recording</li>
-				<ul>
-					<li>click <em style="color:red">Stop button</em> (at top of screen) to stop recording
-				</ul>
-			<li>revert Sound Output back to normal (so can use volume keys on keyboard)
-				<ul>
-				<li>open <em style="color:red">System Settings</em>
-				<li>open <em style="color:red">Sound</em>
-				<li>under <strong>Output</strong> choose <em style="color:red">External Headphones</em> or Mac mini Speakers
-				</ul>
-			</ul>
-	
-		<h5>Convert MOV to MP4 - using Handbrake</h5>
-			<ul>
-				<li>open <em style="color:red">Handbrake</em></li>
-				<li>open <em style="color:red">MOV file</em></li>
-				<li>recommended settings</li>
-					<ul>
-						<li><strong>Preset</strong>: <em style="color:red">Fast 1080p30</em></li>
-						<li>Video tab</li>
+					<li>change Sound Output to go to Screen recording audio
+						<ul>
+						<li>open <em style="color:red">System Settings</em>
+						<li>open <em style="color:red">Sound</em>
+						<li>under <strong>Output</strong> choose <em style="color:red">Screen recording audio</em>
+						</ul>
+					<li>Starting recording
+						<ul>
+							<li>Start Quicktime</li>
 							<ul>
-								<li><strong>Video Encoder</strong>: <em style="color:red">H.264 (x264)</em></li>
-								<li><strong>Framerate (FPS)</strong>: <em style="color:red">30</em> and select <em style="color:red">Constant Framerate</em></li>
+								<li>open QuickTime Player + choose <em style="color:red">File > New Screen Recording</em> -or-</li>
+								<li><em style="color:red">shift + command + 5</em></li>
+							</ul>
+						<li>click on <em style="color:red">Options</em>
+							<ul>
+							<li>choose <em style="color:red">Quick Time input</em> (I had to choose BlackHole 16ch)
+							</ul>
+						<li>click <em style="color:red">Record</em> to start recording
+						</ul>
+					<li>Stop recording</li>
+						<ul>
+							<li>click <em style="color:red">Stop button</em> (at top of screen) to stop recording
+						</ul>
+					<li>revert Sound Output back to normal (so can use volume keys on keyboard)
+						<ul>
+						<li>open <em style="color:red">System Settings</em>
+						<li>open <em style="color:red">Sound</em>
+						<li>under <strong>Output</strong> choose <em style="color:red">External Headphones</em> or Mac mini Speakers
+						</ul>
+					</ul>
+			
+				<h5>Convert MOV to MP4 - using Handbrake</h5>
+					<ul>
+						<li>open <em style="color:red">Handbrake</em></li>
+						<li>open <em style="color:red">MOV file</em></li>
+						<li>recommended settings</li>
+							<ul>
+								<li><strong>Preset</strong>: <em style="color:red">Fast 1080p30</em></li>
+								<li>Video tab</li>
 									<ul>
-										<li>note: Peak Framerate (aka variable framerate) is known to cause issues</li>
+										<li><strong>Video Encoder</strong>: <em style="color:red">H.264 (x264)</em></li>
+										<li><strong>Framerate (FPS)</strong>: <em style="color:red">30</em> and select <em style="color:red">Constant Framerate</em></li>
+											<ul>
+												<li>note: Peak Framerate (aka variable framerate) is known to cause issues</li>
+											</ul>
+									</ul>
+								<li>Audio tab</li>
+									<ul>
+										<li><strong>Codec</strong>: <em style="color:red">AAC (avcodec)</em></li>
 									</ul>
 							</ul>
-						<li>Audio tab</li>
+						<li>Choose save location of output</li>
 							<ul>
-								<li><strong>Codec</strong>: <em style="color:red">AAC (avcodec)</em></li>
+								<li>click on <em style="color:red">Browse</em> (lower right) to pick save location</li>
+							</ul>
+						<li>Start Encode</li>
+							<ul>
+								<li>click <em style="color:red">Start Encode</em> button at top of the screen</li>
 							</ul>
 					</ul>
-				<li>Choose save location of output</li>
-					<ul>
-						<li>click on <em style="color:red">Browse</em> (lower right) to pick save location</li>
-					</ul>
-				<li>Start Encode</li>
-					<ul>
-						<li>click <em style="color:red">Start Encode</em> button at top of the screen</li>
-					</ul>
-			</ul>
-
-	<h5>Perform Screen Recording - Installation and Configuration of BlackHole plugin</h5>
-	<ul>
-		<li>followed: <a href="https://www.youtube.com/watch?v=LSmM5FXzVBg">How to Screen Record with Internal Audio on QuickTime Player (YouTube)</a>
-		<li>download plugin <a href="https://github.com/ExistentialAudio/BlackHole">
-			BlackHole</a> : find <em style="color:red">Download Installer</em></li>
-		<li>run installer
+		
+			<h5>Perform Screen Recording - Installation and Configuration of BlackHole plugin</h5>
 			<ul>
-				<li>choose <em style="color:red">BlackHole 16ch</em> option
-			</ul>
-		<li>open <em style="color:red">Audio MIDI Setup</em> (can use search button)
-			<ul>
-				<li>will see: <strong>BlackHole 16ch</strong>
-				<li>create Quick Time Input
+				<li>followed: <a href="https://www.youtube.com/watch?v=LSmM5FXzVBg">How to Screen Record with Internal Audio on QuickTime Player (YouTube)</a>
+				<li>download plugin <a href="https://github.com/ExistentialAudio/BlackHole">
+					BlackHole</a> : find <em style="color:red">Download Installer</em></li>
+				<li>run installer
 					<ul>
-						<li><em style="color:red">+ (Create Aggregate Device)</em>
-						<li>select <em style="color:red">BlackHole 16ch</em>
-						<li>double-click on <em style="color:red">Aggregate Device</em> name and rename => <em style="color:red">Quick Time Input</em>
+						<li>choose <em style="color:red">BlackHole 16ch</em> option
 					</ul>
-				<li>Create Screen recording audio
+				<li>open <em style="color:red">Audio MIDI Setup</em> (can use search button)
 					<ul>
-						<li><em style="color:red">+ (Create Multi-Output Device)</em>
-						<li>select <em style="color:red">Built-in Output</em> (first)
-						<li>select <em style="color:red">BlackHole 16ch</em> (second)
-						<li>double-click on <em style="color:red">Multi-Output Device</em> name and rename => <em style="color:red">Screen recording audio</em>
+						<li>will see: <strong>BlackHole 16ch</strong>
+						<li>create Quick Time Input
+							<ul>
+								<li><em style="color:red">+ (Create Aggregate Device)</em>
+								<li>select <em style="color:red">BlackHole 16ch</em>
+								<li>double-click on <em style="color:red">Aggregate Device</em> name and rename => <em style="color:red">Quick Time Input</em>
+							</ul>
+						<li>Create Screen recording audio
+							<ul>
+								<li><em style="color:red">+ (Create Multi-Output Device)</em>
+								<li>select <em style="color:red">Built-in Output</em> (first)
+								<li>select <em style="color:red">BlackHole 16ch</em> (second)
+								<li>double-click on <em style="color:red">Multi-Output Device</em> name and rename => <em style="color:red">Screen recording audio</em>
+							</ul>
 					</ul>
 			</ul>
-	</ul>
+		</div><!-- content -->
 
-<h1>MAC links to check out</h1>
-<ul>
-	<li><a href="https://support.apple.com/kb/SP623?viewlocale=en_US&locale=en_US">iMac 2011 specs</a>
-	<li><a href="https://www.howtogeek.com/348398/can-you-upgrade-the-hard-drive-or-ssd-in-your-mac/">Upgrade hard drive</a>
-	<li><a href="https://www.lifewire.com/upgrading-macs-drive-2260371">Upgrade hard drive</a>
-	<li><a href="https://www.makeuseof.com/how-to-clear-other-storage-iphone/">How to clear other storage from iPhone</a>
-</ul>
-<hr>
+		<button type="button" class="collapsible-item">MAC links to check out</button>
+		<div class="collapsible-content">
+			<ul>
+				<li><a href="https://support.apple.com/kb/SP623?viewlocale=en_US&locale=en_US">iMac 2011 specs</a>
+				<li><a href="https://www.howtogeek.com/348398/can-you-upgrade-the-hard-drive-or-ssd-in-your-mac/">Upgrade hard drive</a>
+				<li><a href="https://www.lifewire.com/upgrading-macs-drive-2260371">Upgrade hard drive</a>
+				<li><a href="https://www.makeuseof.com/how-to-clear-other-storage-iphone/">How to clear other storage from iPhone</a>
+			</ul>
+		</div><!-- content -->
+
+	</div> <!-- main -->
+
+	<script src="./scripts/collapsible-item.js"></script>
 
 </body>
 </html>
