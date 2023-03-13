@@ -66,8 +66,33 @@ table, th, td {
   color:red;
 }
 .main {
-  margin-top: 50px; /* Add a top margin to avoid content overlay */
+  margin-top: 15px; /* Add a top margin to avoid content overlay */
 }
+
+.collapsible-item {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color:black;
+  background-color: rgb(210, 230, 215);
+  border: 1px solid black;
+  font-size: 22px;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+}
+.collapsible-item:hover {
+  background-color: #555;
+  color: white;
+}
+.collapsible-content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 
 /* The navigation bar */
 .navbar {
