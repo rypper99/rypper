@@ -11,243 +11,259 @@
 </script>
 <script>
 	$(function(){
-		$('#header').load('navbar-main.html')
+		$('#navbar').load('navbar-main.html')
 	})
 </script>
 </head>
-<body>
-	<div id="header"></div>
-	<div class="page-title">Dividends</div>
+<body class="finance-page">
+	<div class="page-header">
+		<div id="navbar"></div>
+		<p class="page-title">ETFs</p>
+	</div>
 
-	<h1>Facts</h1>
-		<ul></ul>
-		<li><a href="./images/10-reasons-dividend-investing-is-flawed.jpg">10 reasons dividend investing is flawed</a></li>
-		<li>Canadian Dividends in Retirement</li>
-			<ul>
-				<li>grossed up amount is used to determine your OAS clawback</li>
-				<li>$60k in Canadian eligible dividends = $82,800 in income, putting you into OAS clawback range</li>
-			</ul>
-		</ul>
-
-	<h1>Taxation of Dividends</h1>
-		<ul>
-		<li>Canadian Dividends
-			<ul>
-			<!------------------------------------------------------------>
-			<li>Eligible dividends
+	<div class="main">
+		<button type="button" class="collapsible-item">Facts</button>
+		<div class="collapsible-content">
+			<ul></ul>
+			<li><a href="./images/10-reasons-dividend-investing-is-flawed.jpg">10 reasons dividend investing is flawed</a></li>
+			<li>Canadian Dividends in Retirement</li>
 				<ul>
-				<li>dividends from Canadians corporations that pay tax on profits before dividends are distributed
-				<li>Taxation on Dividends
+					<li>grossed up amount is used to determine your OAS clawback</li>
+					<li>$60k in Canadian eligible dividends = $82,800 in income, putting you into OAS clawback range</li>
+				</ul>
+			</ul>
+		</div><!-- content -->
+
+		<button type="button" class="collapsible-item">Taxation of Dividends</button>
+		<div class="collapsible-content">
+			<ul>
+				<li>Canadian Dividends
 					<ul>
-					<li>investors dividend amount is "gross-up" by 138% 
-					<li>investors get dividend tax credits
-					<li>marginal tax rate on eligible dividends is usually much lower than marginal tax rate on working income
-					<li> "gross up" and credit used to avoid double taxation on dividends
+					<!------------------------------------------------------------>
+					<li>Eligible dividends
+						<ul>
+						<li>dividends from Canadians corporations that pay tax on profits before dividends are distributed
+						<li>Taxation on Dividends
+							<ul>
+							<li>investors dividend amount is "gross-up" by 138% 
+							<li>investors get dividend tax credits
+							<li>marginal tax rate on eligible dividends is usually much lower than marginal tax rate on working income
+							<li> "gross up" and credit used to avoid double taxation on dividends
+							</ul>
+						<li>where to hold
+							<ul>
+							<li><b>BEST (non-reg)</b> : to get dividend tax credit
+							<li>OK (RRSP,RRIF,LIRA,TFSA,RESP) : but don't get dividend tax credit
+							</ul>
+						</ul>
+					<!------------------------------------------------------------>
+					<li>NON-eligible dividends
+						<ul>
+						<li>usually paid out by REITs and income trusts that distribute dividends BEFORE paying taxes
+						<li>where to hold
+							<ul>
+							<li><b>BEST (RRSP,RRIF,LIRA,TFSA,RESP)</b> : especially if you enroll in DRIP
+							<li>so-so (non-reg) : accounting gets messy if you enroll in DRIP
+							</ul>
+						</ul>
 					</ul>
-				<li>where to hold
+				<!------------------------------------------------------------>
+				<li>Foreign dividends
 					<ul>
-					<li><b>BEST (non-reg)</b> : to get dividend tax credit
-					<li>OK (RRSP,RRIF,LIRA,TFSA,RESP) : but don't get dividend tax credit
+					<li>US dividends
+						<ul>
+						<li>withholding tax rate: typically 15% for Canadians (due to tax treaty)
+							<ul>
+							<li>exempt when held in retirement account (i.e. RRSP, RRIF)
+							<li>NOT exempt when held in TFSA or RESP (15% withholding tax automatically applied to dividends received)
+							</ul>
+						<li>taxed as regular income : foreign tax credits available for use when filing for income tax
+						<li>where to hold
+							<ul>
+							<li><b>BEST (RRSP,RRIF,LIRA)</b> : to avoid 15% withholding tax
+							<li>OK (non-reg): dividends have 15% deducted but can recover through the foreign tax credit. 
+							<li>AVOID (TFSA/RESP) : get hit with 15% withholding tax and don't get foreign tax credit
+							</ul>
+						<li>NOTE: for limited partnership stocks, REITs and income trusts, you may have to file US-resident income returns
+						</ul>
+					<li>non-US dividends
+						<ul>
+						<li>withholding tax rate: rate can range from 15-30% (almost every country levies tax on dividends)
+						<li>taxed as regular income : foreign tax credits available for use when filing for income tax
+						<li>where to hold
+							<ul>
+							<li><b>BEST (RRSP,RRIF,LIRA)</b> : to avoid withholding tax IF country has tax treaty with Canada
+							<li>OK (non-reg): dividends have 15% deducted but can recover through the foreign tax credit
+							<li>AVOID (TFSA/RESP) : get hit with 15% withholding tax and don't get foreign tax credit
+							</ul>
+						</ul>
 					</ul>
 				</ul>
-			<!------------------------------------------------------------>
-			<li>NON-eligible dividends
-				<ul>
-				<li>usually paid out by REITs and income trusts that distribute dividends BEFORE paying taxes
-				<li>where to hold
+		</div><!-- content -->
+
+		<button type="button" class="collapsible-item">Summary - where to hold dividend paying stocks</button>
+		<div class="collapsible-content">
+			<ul>
+				<li><b>TFSA</b> : good for Canadian dividend paying stocks, ETFs, REITs and income trusts
+				<li><b>RRSP/LIRA/RRIF</b> : good for US and foreign dividend paying stocks, ETFs, REITs and income trusts
+				<li><b>non-reg</b> : good for Canadian dividend paying stocks and ETFs that pay eligible dividends
+				</ul>
+		</div><!-- content -->
+
+		<button type="button" class="collapsible-item">Dividend Metics (how to choose companies)</button>
+		<div class="collapsible-content">
+			<ul>
+				<li>Henry Mah 4 rules which eliminate 70% of stocks (only focuses on 10-20 stocks) left with 25-30 companies Apply other criteria to remaining stocks to pick</li>
+					<ol>
+					<li>Eliminate stocks if company cuts dividends within 10 year period</li>
+					<li>Only companies that pay dividends for 10 years</li>
+					<li>Only companies that consistently raised dividends in past 10 years (i.e. 8 of last 10 years)</li>
+					<li>Only companies that have grown dividend by 75% in last 10 years</li>
+					</ol>
+				<li>Identify trends of stocks to see if business is growing (Dividend Guy Blog)</li>
 					<ul>
-					<li><b>BEST (RRSP,RRIF,LIRA,TFSA,RESP)</b> : especially if you enroll in DRIP
-					<li>so-so (non-reg) : accounting gets messy if you enroll in DRIP
+					<li>dividend trend</li>
+					<li>payout trend</li>
 					</ul>
-				</ul>
-			</ul>
-		<!------------------------------------------------------------>
-		<li>Foreign dividends
-			<ul>
-			<li>US dividends
-				<ul>
-				<li>withholding tax rate: typically 15% for Canadians (due to tax treaty)
+				<li>Use dividend triange(Dividend Guy Blog)</li>
 					<ul>
-					<li>exempt when held in retirement account (i.e. RRSP, RRIF)
-					<li>NOT exempt when held in TFSA or RESP (15% withholding tax automatically applied to dividends received)
+					<li>revenue trend</li>
+					<li>earnings (per share) trend</li>
+					<li>cashflow trend</li>
 					</ul>
-				<li>taxed as regular income : foreign tax credits available for use when filing for income tax
-				<li>where to hold
+				<li>aren't sacraficing their cash to reward shareholders (dividend payout ratio)</li>
+				<li><a href="">DividendDreamer Youtube (US)</a></li>
 					<ul>
-					<li><b>BEST (RRSP,RRIF,LIRA)</b> : to avoid 15% withholding tax
-					<li>OK (non-reg): dividends have 15% deducted but can recover through the foreign tax credit. 
-					<li>AVOID (TFSA/RESP) : get hit with 15% withholding tax and don't get foreign tax credit
+						<li>look at Free Cash Flow</li>
+						<li>Payout Ratio</li>
+						<li>companies with regulated or restricted competition</li>
+						<li>industries that are recession proof</li>
+						<li>no holding more than 10% of portfolio</li>
+						<li>diversify across industry and geography</li>
 					</ul>
-				<li>NOTE: for limited partnership stocks, REITs and income trusts, you may have to file US-resident income returns
-				</ul>
-			<li>non-US dividends
-				<ul>
-				<li>withholding tax rate: rate can range from 15-30% (almost every country levies tax on dividends)
-				<li>taxed as regular income : foreign tax credits available for use when filing for income tax
-				<li>where to hold
+				<li>have rising cash flow and grow earnings
+				<li>grow dividends every year and paid for decades (MyOwnAdvisor)
 					<ul>
-					<li><b>BEST (RRSP,RRIF,LIRA)</b> : to avoid withholding tax IF country has tax treaty with Canada
-					<li>OK (non-reg): dividends have 15% deducted but can recover through the foreign tax credit
-					<li>AVOID (TFSA/RESP) : get hit with 15% withholding tax and don't get foreign tax credit
+					<li>iShares CDZ Cdn Dividend Aristocats (increases every year for last 5)
+					</ul>
+				<li>have a modest payout ratio (MyOwnAdvisor)
+					<ul>
+					<li>they aren't sacraficing all their cash to reward shareholders
+					</ul>
+				<li>higher EPS (earnings per share) and rising cash flow (MyOwnAdvisor)
+					<ul>
+					<li>they grow earnings and cash over time
+					</ul>
+				<li>modest yield (3-5%) (MyOwnAdvisor)
+					<ul>
+					<li>yield is how much it pays out dividends as a percentage of share price
+					<li>high yield could be warning sign
+					</ul>
+				<li>skim what big ETFs own (MyOwnAdvisor)
+					<ul>
+					<li>XIU
+					<li>XIC
+					<li>iShares CDZ is a Canadian Divdend Aristocats Index ETFS (companies increased dividend every year for 5 years)
+					<li>VCE Vanguard FTSE Canada Index (0.06) [Canadian, Growth]
+					</ul>
+				<li>diversify by Sector - no sector more than 20% weight (MyOwnAdvisor)
+					<ul>
+					<li>Financials
+						<ul>
+						<li>banks (examples: Royal Bank, TD Bank) - MyOwnAdvisor owns all 6 big banks NA
+						<li>life insurance companies (examples: Manulife, Sun Life) and more. GWO  POW
+						</ul>
+					<li>Energy
+						<ul>
+						<li>Suncor and Canadian Natural Resources
+						<li>energy distribution companies such as Enbridge (ENB) or TransCanada (TRP) or others.
+						</ul>
+					<li>Materials
+						<ul>
+						<li>Barrick or others such as Teck Resources might be consideration
+						<li>NTR (Nutrien)
+						</ul>
+					<li>Industrials
+						<ul>
+						<li>railroads like Canadian Pacific Railway (CP), Canadian National Railway (CNR)
+						<li>waste management with Waste Connections (WCN).
+						</ul>
+					<li>Consumer
+						<ul>
+						<li>grocery chains by owning Empire (EMP.A), Loblaws (L)
+						<li>Canadian Tire (CTC) or Dollarama (DOL) for growth. 
+						<li>WN (Weston)
+						</ul>
+					<li>Telecom
+						<ul>
+						<li>big 3 telcos: BCE (BCE), Telus (T), Rogers (RCI.B)
+						</ul>
+					<li>Utilities
+						<ul>
+						<li>Fortis (FTS)
+						<li>Canadian Utilities (CU)
+						<li>Emera (EMA)
+						<li>Brookfield Infrastructure Partners (BIP.UN/BIPC)
+						<li>Algonquin (AQN) and a few others!
+						</ul>
+					<li>Health Care
+						<ul>
+						<li>Canada is weak in this sector in terms of dividend stocks
+						</ul>
+					<li>Technology
+						<ul>
+						<li>Canada is also weak in this sector so I own ETF QQQ for that reason. 
+						</ul>
+					<li>Real Estate
+						<ul>
+						<li>Riocan (REI.UN) tops my personal list
+						<li>others like CHP.UN, CAR.UN, and Summit REIT (SMU.UN)
+						</ul>
 					</ul>
 				</ul>
-			</ul>
-		</ul>
+		</div><!-- content -->
 
-	<h1>Summary - where to hold dividend paying stocks</h1>
-		<ul>
-		<li><b>TFSA</b> : good for Canadian dividend paying stocks, ETFs, REITs and income trusts
-		<li><b>RRSP/LIRA/RRIF</b> : good for US and foreign dividend paying stocks, ETFs, REITs and income trusts
-		<li><b>non-reg</b> : good for Canadian dividend paying stocks and ETFs that pay eligible dividends
-		</ul>
+		<button type="button" class="collapsible-item">Henry Mah on TD info session October 2022</button>
+		<div class="collapsible-content">
+			<ul>
+				<li>The ultimate dividend playbook (Josh Peters)</li>
+				<li>The single best investment (Lowell Miller)</li>
+				<li>Plus books Henry has written</li>
+				</ul>
+		</div><!-- content -->
 
+		<button type="button" class="collapsible-item">Dividend John (dividend portfolio followed on twitter)</button>
+		<div class="collapsible-content">
+			<p>Holdings surmised based upon tweets. stated he only has 10 stocks</p>
+			<ul>
+			<li>CM (CIBC) - stated 13.5% of portfolio
+			<li>TD
+			<li>RY
+			<li>NA 
+			<li>BMO
+			<li>BNS
+			<li>T Telus
+			<li>SLF
+			<li>BCE
+			<li>ENB
+			</ul>
+		<p>On 2022.12.07 esitmated portfolio value at $1,322,170.  
+		He said CM(CIBC) was 13.5% of portfolio and on July 28, 2022 he DRIPed 36 shares.  
+		On July 28, CM price was 64.16 and dividend payout was 0.83.
+		36 x 64.14 = 2,309.7 (payout).  
+		2,309.76 x 0.83 = 2,782.8 shares.
+		2,782.8 x 64.15 = 178,493 value.
+		If CM value is $178,493 and is 13.5% of portfolio, then portfolio must be $1,322,1700</p>
+		<p>System (style) he uses:
+			<ul>
+			<li>Every Friday X amount transferred from chequing to brokerage (X is as much as you can do)
+			<li>On 30th of month, whatever position he is building (currently SunLife because it is smallest posiiton), he buys shares he can (no matter price) 
+			</ul>
+		</div><!-- content -->
 
-	<h1>Dividend Metics (how to choose companies)</h1>
-		<ul>
-		<li>Henry Mah 4 rules which eliminate 70% of stocks (only focuses on 10-20 stocks) left with 25-30 companies Apply other criteria to remaining stocks to pick</li>
-			<ol>
-			<li>Eliminate stocks if company cuts dividends within 10 year period</li>
-			<li>Only companies that pay dividends for 10 years</li>
-			<li>Only companies that consistently raised dividends in past 10 years (i.e. 8 of last 10 years)</li>
-			<li>Only companies that have grown dividend by 75% in last 10 years</li>
-			</ol>
-		<li>Identify trends of stocks to see if business is growing (Dividend Guy Blog)</li>
-			<ul>
-			<li>dividend trend</li>
-			<li>payout trend</li>
-			</ul>
-		<li>Use dividend triange(Dividend Guy Blog)</li>
-			<ul>
-			<li>revenue trend</li>
-			<li>earnings (per share) trend</li>
-			<li>cashflow trend</li>
-			</ul>
-		<li>aren't sacraficing their cash to reward shareholders (dividend payout ratio)</li>
-		<li><a href="">DividendDreamer Youtube (US)</a></li>
-			<ul>
-				<li>look at Free Cash Flow</li>
-				<li>Payout Ratio</li>
-				<li>companies with regulated or restricted competition</li>
-				<li>industries that are recession proof</li>
-				<li>no holding more than 10% of portfolio</li>
-				<li>diversify across industry and geography</li>
-			</ul>
-		<li>have rising cash flow and grow earnings
-		<li>grow dividends every year and paid for decades (MyOwnAdvisor)
-			<ul>
-			<li>iShares CDZ Cdn Dividend Aristocats (increases every year for last 5)
-			</ul>
-		<li>have a modest payout ratio (MyOwnAdvisor)
-			<ul>
-			<li>they aren't sacraficing all their cash to reward shareholders
-			</ul>
-		<li>higher EPS (earnings per share) and rising cash flow (MyOwnAdvisor)
-			<ul>
-			<li>they grow earnings and cash over time
-			</ul>
-		<li>modest yield (3-5%) (MyOwnAdvisor)
-			<ul>
-			<li>yield is how much it pays out dividends as a percentage of share price
-			<li>high yield could be warning sign
-			</ul>
-		<li>skim what big ETFs own (MyOwnAdvisor)
-			<ul>
-			<li>XIU
-			<li>XIC
-			<li>iShares CDZ is a Canadian Divdend Aristocats Index ETFS (companies increased dividend every year for 5 years)
-			<li>VCE Vanguard FTSE Canada Index (0.06) [Canadian, Growth]
-			</ul>
-		<li>diversify by Sector - no sector more than 20% weight (MyOwnAdvisor)
-			<ul>
-			<li>Financials
-				<ul>
-				<li>banks (examples: Royal Bank, TD Bank) - MyOwnAdvisor owns all 6 big banks NA
-				<li>life insurance companies (examples: Manulife, Sun Life) and more. GWO  POW
-				</ul>
-			<li>Energy
-				<ul>
-				<li>Suncor and Canadian Natural Resources
-				<li>energy distribution companies such as Enbridge (ENB) or TransCanada (TRP) or others.
-				</ul>
-			<li>Materials
-				<ul>
-				<li>Barrick or others such as Teck Resources might be consideration
-				<li>NTR (Nutrien)
-				</ul>
-			<li>Industrials
-				<ul>
-				<li>railroads like Canadian Pacific Railway (CP), Canadian National Railway (CNR)
-				<li>waste management with Waste Connections (WCN).
-				</ul>
-			<li>Consumer
-				<ul>
-				<li>grocery chains by owning Empire (EMP.A), Loblaws (L)
-				<li>Canadian Tire (CTC) or Dollarama (DOL) for growth. 
-				<li>WN (Weston)
-				</ul>
-			<li>Telecom
-				<ul>
-				<li>big 3 telcos: BCE (BCE), Telus (T), Rogers (RCI.B)
-				</ul>
-			<li>Utilities
-				<ul>
-				<li>Fortis (FTS)
-				<li>Canadian Utilities (CU)
-				<li>Emera (EMA)
-				<li>Brookfield Infrastructure Partners (BIP.UN/BIPC)
-				<li>Algonquin (AQN) and a few others!
-				</ul>
-			<li>Health Care
-				<ul>
-				<li>Canada is weak in this sector in terms of dividend stocks
-				</ul>
-			<li>Technology
-				<ul>
-				<li>Canada is also weak in this sector so I own ETF QQQ for that reason. 
-				</ul>
-			<li>Real Estate
-				<ul>
-				<li>Riocan (REI.UN) tops my personal list
-				<li>others like CHP.UN, CAR.UN, and Summit REIT (SMU.UN)
-				</ul>
-			</ul>
-		</ul>
+	</div> <!-- main -->
 
-	<h1>Henry Mah on TD info session October 2022</h1>
-	<p>Recommended books
-		<ul>
-		<li>The ultimate dividend playbook (Josh Peters)</li>
-		<li>The single best investment (Lowell Miller)</li>
-		<li>Plus books Henry has written</li>
-		</ul>
-
-<h1>Dividend John (dividend portfolio followed on twitter)</h1>
-	<p>Holdings surmised based upon tweets. stated he only has 10 stocks</p>
-		<ul>
-		<li>CM (CIBC) - stated 13.5% of portfolio
-		<li>TD
-		<li>RY
-		<li>NA 
-		<li>BMO
-		<li>BNS
-		<li>T Telus
-		<li>SLF
-		<li>BCE
-		<li>ENB
-		</ul>
-	<p>On 2022.12.07 esitmated portfolio value at $1,322,170.  
-	He said CM(CIBC) was 13.5% of portfolio and on July 28, 2022 he DRIPed 36 shares.  
-	On July 28, CM price was 64.16 and dividend payout was 0.83.
-	36 x 64.14 = 2,309.7 (payout).  
-	2,309.76 x 0.83 = 2,782.8 shares.
-	2,782.8 x 64.15 = 178,493 value.
-	If CM value is $178,493 and is 13.5% of portfolio, then portfolio must be $1,322,1700</p>
-	<p>System (style) he uses:
-		<ul>
-		<li>Every Friday X amount transferred from chequing to brokerage (X is as much as you can do)
-		<li>On 30th of month, whatever position he is building (currently SunLife because it is smallest posiiton), he buys shares he can (no matter price) 
-		</ul>
-
+	<script src="./scripts/collapsible-item.js"></script>
 
 </body>
 </html>
