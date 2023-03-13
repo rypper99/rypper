@@ -103,7 +103,7 @@ table, th, td {
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
-.dropdown-item-header {
+.navbar-dropdown-item-header {
   background-color: black;
   color: yellow;
   text-align: center;
@@ -115,7 +115,7 @@ table, th, td {
 }
 
 /* Dropdown content (hidden by default) */
-.dropdown-content {
+.navbar-dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -125,7 +125,7 @@ table, th, td {
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
+.navbar-dropdown-content a {
   float: none;
   color: black;
   padding: 2px 2px 2px 10px;
@@ -138,12 +138,12 @@ table, th, td {
 }
 
 /* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
+.navbar-dropdown-content a:hover {
   background-color: #ddd;
 }
 
 /* Show the dropdown menu on hover */
-.navbar-dropdown:hover .dropdown-content {
+.navbar-dropdown:hover .navbar-dropdown-content {
   display: block;
 }
 
