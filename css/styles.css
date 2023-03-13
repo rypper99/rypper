@@ -68,6 +68,7 @@ table, th, td {
   width: 100%; /* Full width */
   text-align: right;
   /*font-size: 30px;*/
+  position: -webkit-sticky;
   position: sticky;
 }
 
