@@ -57,6 +57,15 @@ table, th, td {
   border:0px solid black;
 }
 
+.header {
+  position: -webkit-sticky; 
+  position: sticky; 
+}
+
+.main {
+  margin-top: 15px; /* Add a top margin to avoid content overlay */
+}
+
 /* The navigation bar */
 .navbar {
   overflow: hidden;
@@ -68,8 +77,6 @@ table, th, td {
   width: 100%; /* Full width */
   text-align: right;
   /*font-size: 30px;*/
-  position: -webkit-sticky; 
-  position: sticky; 
 }
 
 /* Links inside the navbar */
@@ -152,9 +159,6 @@ table, th, td {
   display: block;
 }
 
-.main {
-  margin-top: 15px; /* Add a top margin to avoid content overlay */
-}
 
 .fund-table {
   width:100%;
