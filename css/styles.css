@@ -83,13 +83,13 @@ table, th, td {
   background-color: red;
 }
 
-.dropdown {
+.navbar-dropdown {
   float: left;
   overflow: hidden;
 }
 
 /* Dropdown button */
-.dropdown .dropbtn {
+.navbar-dropdown .dropbtn {
   font-size: 20px;
   border: none;
   outline: none;
@@ -110,7 +110,7 @@ table, th, td {
 }
 
 /* Add a red background color to navbar links on hover */
-.dropdown:hover .dropbtn {
+.navbar-dropdown:hover .dropbtn {
   background-color: red;
 }
 
@@ -143,7 +143,7 @@ table, th, td {
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+.navbar-dropdown:hover .dropdown-content {
   display: block;
 }
 
