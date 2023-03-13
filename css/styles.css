@@ -104,15 +104,15 @@ table, th, td {
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
+/* Add a red background color to navbar links on hover */
+.navbar-dropdown:hover .navbar-dropbtn {
+  background-color: red;
+}
+
 .navbar-dropdown-item-header {
   background-color: black;
   color: yellow;
   text-align: center;
-}
-
-/* Add a red background color to navbar links on hover */
-.navbar-dropdown:hover .navbar-dropbtn {
-  background-color: red;
 }
 
 /* Dropdown content (hidden by default) */
