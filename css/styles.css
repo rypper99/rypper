@@ -61,6 +61,7 @@ table, th, td {
   position: -webkit-sticky; 
   position: sticky; 
   background-color: grey;
+  top: 0px;
 }
 
 .main {
