@@ -62,9 +62,8 @@ table, th, td {
   overflow: hidden;
   /*background-color: #333;*/
   /* background-color: rgb(68, 107, 235); */
-  background-color: black;
-  background-color: rgb(142, 233, 235);
   background-color: yellow;
+  background-color: rgb(142, 233, 235);
   /*position: fixed;*/ /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
