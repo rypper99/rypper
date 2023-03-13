@@ -15,20 +15,17 @@
 	})
 </script>
 </head>
-<body>
-	<div id="navbar"></div>
-	<div class="page-title">Financial Planning</div>
 
-	<h1>Links</h1>
-		<ul>
-		<li><a href="https://www.financialplanningforcanadians.ca/">
-      Financial Planning for Canadians</a></li>
-		</ul>
-	​
+<body class="finance-page">
+	<div class="page-header">
+		<div id="navbar"></div>
+		<p class="page-title">Financial Planning</p>
+	</div>
 
-	<h1>Financial plan</h1>
-
-  <h2>Document customized for you providing advice on all areas of your finances</h2>
+	<div class="main">
+		<button type="button" class="collapsible-item">Components of Financial Plan</button>
+		<div class="collapsible-content">
+      <h2>Document customized for you providing advice on all areas of your finances</h2>
 		<ul>
       <li>Cash Flow</li>
         <ul>
@@ -59,23 +56,42 @@
           <li>Recommending the strategies and investments appropriate for your plan and keeping you focused on your goals</li>
         </ul>
     </ul>
+    </div><!-- content -->
 
-
-    <h2>Specifics</h2>
+    <button type="button" class="collapsible-item">Financial Planning Activities</button>
+		<div class="collapsible-content">
+      <p>These are activites that have to be done, maybe done by your financial advisor</p>
       <ul>
         <li>Review RRSP contributions</li>
           <ul>
-            <li>RRSP contributions</li>
-            <li>Employer group contribution plans</li>
+            <li>Factor in Employer group contribution plans</li>
+            <li>Individual RRSP contributions</li>
           </ul>
         <li>Review TFSA contributions</li>
         <li>Prepare for Tax preparation</li>
           <ul>
             <li>create clean bundle of tax documents for accountant</li>
           </ul>
+        <li>Determine prescribed rate loan</li>
+          <ul>
+            <li>when individual loans moeny to lower income spouse or common-law partner, adult child or investment trust</li>
+            <li>interest is charged at prescribed rate in effect when loan is made</li>
+          </ul>
       </ul>
 		</ul>
+    </div><!-- content -->
 
+    <button type="button" class="collapsible-item">Links</button>
+		<div class="collapsible-content">
+      <ul>
+        <li><a href="https://www.financialplanningforcanadians.ca/">
+          Financial Planning for Canadians</a></li>
+        </ul>
+    </div><!-- content -->
+
+	</div> <!-- main -->
+
+	<script src="./scripts/collapsible-item.js"></script>
 
 </body>
 </html>
