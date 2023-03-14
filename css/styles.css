@@ -63,7 +63,8 @@ table, th, td {
   top: 0px;
 }
 .page-title {
-  color:red;
+  color:white;
+  background-color: blue;
 }
 .main {
   margin-top: 15px; /* Add a top margin to avoid content overlay */
@@ -99,7 +100,7 @@ table, th, td {
   overflow: hidden;
   /*background-color: #333;*/
   /* background-color: rgb(68, 107, 235); */
-  background-color: rgb(142, 233, 235);
+  background-color: grey;
   /*position: fixed;*/ /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -132,13 +133,13 @@ table, th, td {
   font-size: 20px;
   /* border: none; */
   outline: none;
-  color: white;
+  color: black;
   padding-top: 2px;
   padding-bottom: 2px;
   padding-right: 20px;
   padding-left: 2px;
   /* background-color: inherit;*/
-  background-color: rgb(68, 107, 235);
+  background-color: grey;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
 }
