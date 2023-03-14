@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>rypper</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="https://kit.fontawesome.com/c011478768.js" crossorigin="anonymous"></script>
+	<script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous">
+</script>
+<script>
+	$(function(){
+		$('#navbar').load('navbar-main.html')
+	})
+</script>
+</head>
+<body class="finance-page">
+	<div class="page-header">
+		<div id="navbar"></div>
+		<p class="page-title">BONDs</p>
+	</div>
+
+	<div class="main">
+		<button type="button" class="collapsible-item">Facts</button>
+		<div class="collapsible-content">
+			<ul>
+				<li>2 pillars of bonds
+					<ul>
+					<li>Duration
+						<ul>
+						<li>Short (1-5 years) – decrease less when rates rise, increase less when rates drop
+						<li>Mid (5-10 years) – decrease medium when rates rise, increase medium when rates drop
+						<li>Long (10+ years) – decrease most when rates rise, increase most when rates drop
+						</ul>
+					<li>Credit of bond (credit rating)
+						<ul>
+						<li>Government/Federal – AAA rating (most secure)
+						<li>Provincial
+						<li>Corporate (range from investment grade to high yield)
+						</ul>
+					</ul>
+				<li>Individual bonds trade over the counter – not on an exchange
+				<li>Bond ETF trades on exchange and holds individual bonds
+				<li>Which Bond ETF to buy:
+					<ul>
+					<li>Passive 
+						<ul>
+						<li>own entire bond market, 1 stop ETF – most diversified, holds all segments
+						<li>ex. ZAG aggregate bond
+						</ul>
+					<li>Active (need to have view on where market will go)
+						<ul>
+						<li>ETF specific to a pillar of bonds (i.e. short term)
+						<li>Buy ETF based on how you think market will be moving
+						</ul>
+					</ul>
+				<li>ETF Bond Terms
+					<ul>
+					<li>Benchmark info (which index it follows)
+					<li>Inception date (when created)
+					<li>Distribution Frequency (i.e. monthly)
+					<li>Net Assets (how big)
+					<li>Yield to Maturity (rate of return for bond)
+						<ul>
+						<li>Will vary based on market and rates – what bond could sell for
+						</ul>
+					<li>Annualized Distribution Yield
+						<ul>
+						<li>What ETF pays out (minus fee)
+						</ul>
+					<li>Coupon (annual interest rate that is % of face value)
+						<ul>
+						<li>Always stays the same
+						</ul>
+					<li>Duration
+						<ul>
+						<li>Indicates how sensitive it is when interest rates rise and fall
+						</ul>
+					</ul>
+				<li>Management Fee – what provider is making
+				<li>MER – includes Management Fee + tax + trading fees (minimal)
+					<ul>
+					<li>ZAG is 0.09% (very low), US bonds more expensive (more work), active fixed income (0.65 or more)
+					</ul>
+				<li>Reasons why ETF return less than Index return
+					<ul>
+					<li>Index has no MER
+					<li>Index assumes trades occur immediately but fund takes time to make trades and market changes (should be around 10-15 basis points)
+					</ul>
+				<li>Holdings page
+					<ul>
+					<li>Reviewing specific bond holdings – not too useful for investor (unlike in an equity fund)
+					<li>But check out Holding Allocations
+						<ul>
+						<li>Sector (federal, provincial, corporate, municipal)
+						<li>Geographic (Canada)
+						<li>Maturity leads to weighted average duration
+						<li>Credit
+						</ul>
+					<li>How to gauge how I am doing with my Bond fund?
+						<ul>
+						<li>As rates change
+							<ul>
+							<li>Bond price will go up/down
+							<li>Interest receiving with go up/down
+							</ul>
+						</ul>
+					</ul>
+		</div><!-- content -->
+
+		<button type="button" class="collapsible-item">Links</button>
+		<div class="collapsible-content">
+			<ul>
+				<li><a href="images/impact to bond prices.png">Impact of interest rates changes to Bond prices</a></li>
+				<li><a href="images/returns_by_type_term.png">Bond returns by type and term</a></li>
+				<li><a href="https://www.cashflowsandportfolios.com/bonds-vs-gics-which-is-better/?utm_source=convertkit&utm_medium=email&utm_campaign=Cashflows+%26+Portfolios+Newsletter+-+Bonds+vs.+GICs+-+Which+is+Better%3F%20-%209376634">Bonds vs. GICs - Which is Better?</a></li>
+			</ul>
+		</div><!-- content -->
+
+	</div> <!-- main -->
+
+	<script src="./scripts/collapsible-item.js"></script>
+
+</body>
+</html>
