@@ -198,7 +198,7 @@ table, th, td {
 
 .fund-table caption {
   vertical-align:"bottom";
-  background-color: rgb(34, 36, 200);
+  background-color: white;
   color: yellow;
   text-align: left;
   font-size: larger;
