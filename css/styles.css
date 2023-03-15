@@ -205,13 +205,11 @@ table, th, td {
 }
 
 .fund-table a:link {
-  color: yellow(34, 36, 200);
   background-color: transparent;
   text-decoration: none;
   }
 
 .fund-table a:visited {
-  color: yellow(34, 36, 200);
   background-color: transparent;
   text-decoration: none;
   }
