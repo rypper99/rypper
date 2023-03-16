@@ -263,12 +263,16 @@ table, th, td {
   border: 1px solid black;
   margin-top: 3px;
 }
-.links button{
+.links button, .button-header{
   font-size: 25px;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+.button-header {
+  color: white;
+  background-color: black;
 }
 .links a {
   text-decoration: none;
