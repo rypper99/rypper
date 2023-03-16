@@ -263,7 +263,7 @@ table, th, td {
   border: 1px solid black;
   margin-top: 3px;
 }
-.links button, .button-header{
+.links button {
   font-size: 25px;
   margin-top: 0px;
   margin-bottom: 0px;
