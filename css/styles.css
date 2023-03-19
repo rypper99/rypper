@@ -230,6 +230,7 @@ table, th, td {
   border:1px solid black;
 }
 
+/**************************************
 .food {
   display: grid;
   grid-template-columns: 1fr;
@@ -258,6 +259,8 @@ table, th, td {
   vertical-align: top;
   text-align: center;
 }
+*****************************/
+
 
 .links {
   border: 1px solid black;
