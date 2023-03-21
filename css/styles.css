@@ -101,6 +101,7 @@ table, th, td {
 .book-recommended, .book-ok, .book-not-recommended, .book-to-read {
   font-weight: bold;
   font-size: 20px;
+  width: 300px;
 }
 
 .book-recommended {
