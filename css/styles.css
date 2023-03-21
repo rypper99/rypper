@@ -96,6 +96,7 @@ table, th, td {
   background-color: white;
   margin-top: 0px;
   margin-bottom: 0px;
+  border: 1px solid black;
 }
 .book-recommended {
   background-color: rgb(162, 236, 162);
