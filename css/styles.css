@@ -86,7 +86,7 @@ table, th, td {
   font-weight: bold;
 }
 .collapsible-item:hover {
-  background-color: #555;
+  background-color: red;
   color: white;
 }
 .collapsible-content {
