@@ -109,6 +109,10 @@ table, th, td {
   background-color: rgb(246, 152, 202);
   color: black;
 }
+.book-to-read {
+  background-color: white;
+  color: black;
+}
 
 
 /* The navigation bar */
