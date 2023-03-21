@@ -28,8 +28,12 @@ h1 {
   font-size: 30px;
 }
 h2 {
-  margin-top: 0px;
+  font-weight: bold;
+  margin-top: 5px;
   margin-bottom: 0px;
+  background-color: rgb(89, 86, 86);
+  color: white;
+  font-size: 25px;
 }
 h3 {
   margin-top: 0px;
