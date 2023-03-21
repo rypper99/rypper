@@ -98,12 +98,13 @@ table, th, td {
   margin-bottom: 0px;
   border: 1px solid black;
 }
+.legend {
+  width: 300px;
+}
 .book-recommended, .book-ok, .book-not-recommended, .book-to-read {
   font-weight: bold;
   font-size: 20px;
-  width: 300px;
 }
-
 .book-recommended {
   background-color: rgb(162, 236, 162);
   color: black;
