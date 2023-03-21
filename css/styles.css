@@ -98,8 +98,16 @@ table, th, td {
   margin-bottom: 0px;
 }
 .book-recommended {
-  background-color: green;
-  color: white;
+  background-color: rgb(162, 236, 162);
+  color: black;
+}
+.book-ok {
+  background-color: rgb(219, 236, 162);
+  color: black;
+}
+.book-not-recommended {
+  background-color: rgb(246, 152, 202);
+  color: black;
 }
 
 
