@@ -121,6 +121,10 @@ table, th, td {
   background-color: white;
   color: black;
 }
+.book-partial-read {
+  background-color: rgb(151, 154, 233);
+  color: black;
+}
 .book-heading {
   background-color: black;
   color: white;
