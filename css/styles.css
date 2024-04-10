@@ -98,9 +98,11 @@ table, th, td {
   margin-bottom: 0px;
   border: 1px solid black;
 }
+/* 
 .legend {
   width: 300px;
-}
+} 
+*/
 .book-recommended, .book-ok, .book-not-recommended, .book-partial-read, .book-to-read {
   font-weight: bold;
   font-size: 20px;
